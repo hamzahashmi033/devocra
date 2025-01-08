@@ -49,9 +49,9 @@ const ServiceMain = () => {
                           01
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
-                        <h4>
+                        <h2 >
                           <Link href="/web-development">Web Development</Link>
-                        </h4>
+                        </h2>
                       </div>
                       <ul>
                         <li>Frontend Development</li>
@@ -77,9 +77,9 @@ const ServiceMain = () => {
                           02
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
-                        <h4>
+                        <h2>
                           <Link href="/mobile-app-development">App Development</Link>
-                        </h4>
+                        </h2>
                       </div>
                       <ul>
                         <li>Native App Development</li>
@@ -105,9 +105,9 @@ const ServiceMain = () => {
                           03
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
-                        <h4>
+                        <h2>
                           <Link href="/cms-development">CMS Development</Link>
-                        </h4>
+                        </h2>
                       </div>
                       <ul>
                         <li>WordPress Development</li>
@@ -133,9 +133,9 @@ const ServiceMain = () => {
                           04
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
-                        <h4>
+                        <h2>
                           <Link href="/graphic-design">Graphic Design</Link>
-                        </h4>
+                        </h2>
                       </div>
                       <ul>
                         <li>Logo Design</li>
@@ -161,9 +161,9 @@ const ServiceMain = () => {
                           05
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
-                        <h4>
+                        <h2>
                           <Link href="/marketing">Marketing</Link>
-                        </h4>
+                        </h2>
                       </div>
                       <ul>
                         <li>Search Engine Optimisation(SEO)</li>
@@ -189,9 +189,9 @@ const ServiceMain = () => {
                           06
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
-                        <h4>
+                        <h2>
                           <Link href="/devops">DevOps</Link>
-                        </h4>
+                        </h2>
                       </div>
                       <ul>
                         <li>CI / CD</li>
@@ -217,9 +217,9 @@ const ServiceMain = () => {
                           07
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
-                        <h4>
+                        <h2>
                           <Link href="/artificial-intelligence">Artificial Intelligence</Link>
-                        </h4>
+                        </h2>
                       </div>
                       <ul>
                         <li>Generative AI</li>
@@ -245,9 +245,9 @@ const ServiceMain = () => {
                           08
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
-                        <h4>
+                        <h2>
                           <Link href="/video-animation">Video Animation</Link>
-                        </h4>
+                        </h2>
                       </div>
                       <ul>
                         <li>2D Animation</li>

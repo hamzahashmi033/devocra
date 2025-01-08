@@ -27,72 +27,72 @@ const Technologies = () => {
                     >
                         <SwiperSlide>
                             <div className="portfolio__text-slider-single">
-                                <h2 className="h1">
+                                <h3 className="h1">
                                     <Link href="portfolio">
                                         devocra Technologies
                                         <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                                     </Link>
-                                </h2>
+                                </h3>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portfolio__text-slider-single">
-                                <h2 className="h1 str">
+                                <h3 className="h1 str">
                                     <Link href="portfolio">
                                         devocra Technologies
                                         <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                                     </Link>
-                                </h2>
+                                </h3>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portfolio__text-slider-single">
-                                <h2 className="h1">
+                                <h3 className="h1">
                                     <Link href="portfolio">
                                         devocra Technologies
                                         <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                                     </Link>
-                                </h2>
+                                </h3>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portfolio__text-slider-single">
-                                <h2 className="h1 str">
+                                <h3 className="h1 str">
                                     <Link href="portfolio">
                                         devocra Technologies
                                         <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                                     </Link>
-                                </h2>
+                                </h3>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portfolio__text-slider-single">
-                                <h2 className="h1">
+                                <h3 className="h1">
                                     <Link href="portfolio">
                                         devocra Technologies
                                         <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                                     </Link>
-                                </h2>
+                                </h3>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portfolio__text-slider-single">
-                                <h2 className="h1 str">
+                                <h3 className="h1 str">
                                     <Link href="portfolio">
                                         devocra Technologies
                                         <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                                     </Link>
-                                </h2>
+                                </h3>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="portfolio__text-slider-single">
-                                <h2 className="h1">
+                                <h3 className="h1">
                                     <Link href="portfolio">
                                         devocra Technologies
                                         <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                                     </Link>
-                                </h2>
+                                </h3>
                             </div>
                         </SwiperSlide>
                     </Swiper>
@@ -114,7 +114,7 @@ const Technologies = () => {
                         {technologies === "mobile_apps" && (
                             <>
 
-                                <h2 className="techName">IOS</h2>
+                                <h3 className="techName">IOS</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"Swift"} img={"/images/technologies/swift.svg"} />
                                     <TechnologyItem title={"UI Kit"} img={"/images/technologies/uiKit.svg"} />
@@ -124,7 +124,7 @@ const Technologies = () => {
                                     <TechnologyItem title={"Alomofire"} img={"/images/technologies/alomofire.svg"} />
                                     <TechnologyItem title={"Core Data"} img={"/images/technologies/coreData.svg"} />
                                 </div>
-                                <h2 className="techName">Android</h2>
+                                <h3 className="techName">Android</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"Kotlin"} img={"/images/technologies/kotlin.svg"} />
                                     <TechnologyItem title={"MVVM"} img={"/images/technologies/MVVM.svg"} />
@@ -139,7 +139,7 @@ const Technologies = () => {
                         {technologies === "web_platforms" && (
                             <>
 
-                                <h2 className="techName">Frontend</h2>
+                                <h3 className="techName">Frontend</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"React Js"} img={"/images/technologies/react.svg"} />
                                     <TechnologyItem title={"Next Js"} img={"/images/technologies/next.svg"} />
@@ -154,7 +154,7 @@ const Technologies = () => {
                                     <TechnologyItem title={"Material UI"} img={"/images/technologies/materialUI.svg"} />
                                     <TechnologyItem title={"Rest API"} img={"/images/technologies/restAPI.svg"} />
                                 </div>
-                                <h2 className="techName">Backend</h2>
+                                <h3 className="techName">Backend</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"Node Js"} img={"/images/technologies/nodeJS.svg"} />
                                     <TechnologyItem title={"Python"} img={"/images/technologies/python.svg"} />
@@ -166,7 +166,7 @@ const Technologies = () => {
                                     <TechnologyItem title={".Net"} img={"/images/technologies/net.svg"} />
                                     <TechnologyItem title={"Laravel"} img={"/images/technologies/laravel.svg"} />
                                 </div>
-                                <h2 className="techName">CMS</h2>
+                                <h3 className="techName">CMS</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"Wordpress"} img={"/images/technologies/wordpress.svg"} />
                                     <TechnologyItem title={"Magento"} img={"/images/technologies/magento.svg"} />
@@ -180,7 +180,7 @@ const Technologies = () => {
                         {technologies === "cross_platform" && (
                             <>
 
-                                <h2 className="techName">React Native</h2>
+                                <h3 className="techName">React Native</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"Redux"} img={"/images/technologies/redux.svg"} />
                                     <TechnologyItem title={"Mobx"} img={"/images/technologies/mobx.svg"} />
@@ -188,7 +188,7 @@ const Technologies = () => {
                                     <TechnologyItem title={"Redux Thunk"} img={"/images/technologies/redux.svg"} />
 
                                 </div>
-                                <h2 className="techName">Flutter</h2>
+                                <h3 className="techName">Flutter</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"Bloc"} img={"/images/technologies/bloc.svg"} />
                                     <TechnologyItem title={"Dart"} img={"/images/technologies/dart.svg"} />
@@ -203,7 +203,7 @@ const Technologies = () => {
                         {technologies === "database" && (
                             <>
 
-                                <h2 className="techName">Database</h2>
+                                <h3 className="techName">Database</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"MongoDB"} img={"/images/technologies/mongodb.svg"} />
                                     <TechnologyItem title={"MySQL"} img={"/images/technologies/mysql.svg"} />
@@ -221,7 +221,7 @@ const Technologies = () => {
                         {technologies === "cloud_devops" && (
                             <>
 
-                                <h2 className="techName">DevOps</h2>
+                                <h3 className="techName">DevOps</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"Nginx"} img={"/images/technologies/nginx.svg"} />
                                     <TechnologyItem title={"Docker"} img={"/images/technologies/docker.svg"} />
@@ -231,7 +231,7 @@ const Technologies = () => {
 
 
                                 </div>
-                                <h2 className="techName">Cloud</h2>
+                                <h3 className="techName">Cloud</h3>
                                 <div className="tech">
                                     <TechnologyItem title={"AWS"} img={"/images/technologies/aws.svg"} />
                                     <TechnologyItem title={"Appium"} img={"/images/technologies/Appium.svg"} />

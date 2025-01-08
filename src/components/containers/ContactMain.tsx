@@ -17,7 +17,7 @@ const ContactMain = () => {
                 <Image src={phone} alt="Image" />
               </div>
               <div className="content">
-                <h4>Phone & Fax</h4>
+                <h3>Phone & Fax</h3>
                 <p>
                   <Link href="tel:197-90-56-780">US : +197-90-56-780</Link>
                 </p>
@@ -33,7 +33,7 @@ const ContactMain = () => {
                 <Image src={mail} alt="Image" />
               </div>
               <div className="content">
-                <h4>Mail Address</h4>
+                <h3>Mail Address</h3>
                 <p>
                   <Link href="mailto:info@devocra.com">
                     info@devocra.com
@@ -52,7 +52,7 @@ const ContactMain = () => {
                 <Image src={location} alt="Image" />
               </div>
               <div className="content">
-                <h4>Our Location</h4>
+                <h3>Our Location</h3>
                 <p>
                   <Link
                     href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
@@ -70,7 +70,7 @@ const ContactMain = () => {
                 <Image src={time} alt="Image" />
               </div>
               <div className="content">
-                <h4>Office Hour</h4>
+                <h3>Office Hour</h3>
                 <p>24/7 Hours Operational</p>
               </div>
             </div>
@@ -81,7 +81,7 @@ const ContactMain = () => {
             <div className="map-wrapper">
               <div className="row gaper">
                 <div className="col-12 col-lg-6">
-                  <div className="contact__map fade-top">
+                  {/* <div className="contact__map fade-top">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20342.411046372905!2d-74.16638039276373!3d40.719832743885284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1649562691355!5m2!1sen!2sbd"
                       width="100"
@@ -91,9 +91,9 @@ const ContactMain = () => {
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
-                  </div>
+                  </div> */}
                 </div>
-                <div className="col-12 col-lg-6">
+                <div className="col-12 col-lg-12">
                   <div className="contact-main__form  fade-top">
                     <h3>Leave A Message</h3>
                     <form

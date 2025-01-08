@@ -65,12 +65,12 @@ const HomeOffer = () => {
                   01
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
-                <h2>
+                <h3>
                   <Link href="web-development">
                     Web Development
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
-                </h2>
+                </h3>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={blogthumb} alt="Image" />
                 </div>
@@ -80,12 +80,12 @@ const HomeOffer = () => {
                   02
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
-                <h2>
+                <h3>
                   <Link href="mobile-app-development">
                     App development
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
-                </h2>
+                </h3>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={appthumb} alt="Image" />
                 </div>
@@ -95,12 +95,12 @@ const HomeOffer = () => {
                   03
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
-                <h2>
+                <h3>
                   <Link href="cms-development">
                     CMS development
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
-                </h2>
+                </h3>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={marketingthumb} alt="Image" />
                 </div>
@@ -110,12 +110,12 @@ const HomeOffer = () => {
                   04
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
-                <h2>
+                <h3>
                   <Link href="marketing">
                     digital marketing
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
-                </h2>
+                </h3>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={marketingthumb} alt="Image" />
                 </div>
@@ -125,12 +125,12 @@ const HomeOffer = () => {
                   05
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
-                <h2>
+                <h3>
                   <Link href="graphic-design">
                     graphic design
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
-                </h2>
+                </h3>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={graphicthumb} alt="Image" />
                 </div>
@@ -140,12 +140,12 @@ const HomeOffer = () => {
                   06
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
-                <h2>
+                <h3>
                   <Link href="video-animation">
                     Video Animation
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
-                </h2>
+                </h3>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={aithumb} alt="Image" />
                 </div>
@@ -155,12 +155,12 @@ const HomeOffer = () => {
                   07
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
-                <h2>
+                <h3>
                   <Link href="devops">
                     devOps engineering
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
-                </h2>
+                </h3>
                 <div className="offer-thumb-hover d-none d-md-block">
                   <Image src={devopsthumb} alt="Image" objectFit="contain" />
                 </div>

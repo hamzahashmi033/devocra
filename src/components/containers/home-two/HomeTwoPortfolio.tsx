@@ -81,72 +81,72 @@ const HomeTwoPortfolio = () => {
         >
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
-              <h2 className="h1">
+              <h3 className="h1">
                 <Link href="portfolio">
                   devocra portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
-              </h2>
+              </h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
-              <h2 className="h1 str">
+              <h3 className="h1 str">
                 <Link href="portfolio">
                   devocra portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
-              </h2>
+              </h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
-              <h2 className="h1">
+              <h3 className="h1">
                 <Link href="portfolio">
                   devocra portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
-              </h2>
+              </h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
-              <h2 className="h1 str">
+              <h3 className="h1 str">
                 <Link href="portfolio">
                   devocra portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
-              </h2>
+              </h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
-              <h2 className="h1">
+              <h3 className="h1">
                 <Link href="portfolio">
                   devocra portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
-              </h2>
+              </h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
-              <h2 className="h1 str">
+              <h3 className="h1 str">
                 <Link href="portfolio">
                   devocra portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
-              </h2>
+              </h3>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
-              <h2 className="h1">
+              <h3 className="h1">
                 <Link href="portfolio">
                   devocra portfolio
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
-              </h2>
+              </h3>
             </div>
           </SwiperSlide>
         </Swiper>
@@ -220,9 +220,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Mobile App</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -238,9 +238,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Mobile App</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -258,9 +258,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Mobile App</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -278,9 +278,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Mobile App</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -296,9 +296,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -316,9 +316,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -336,9 +336,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -356,9 +356,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -376,9 +376,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -396,9 +396,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -416,9 +416,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -436,9 +436,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -456,9 +456,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -476,9 +476,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -496,9 +496,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Website</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -524,9 +524,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Video Animation</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -552,9 +552,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Video Animation</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -580,9 +580,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Video Animation</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -608,9 +608,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Video Animation</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -628,9 +628,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">CMS Development</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -648,9 +648,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">CMS Development</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -668,9 +668,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">CMS Development</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -688,9 +688,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">CMS Development</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -708,9 +708,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">CMS Development</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -728,9 +728,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">CMS Development</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -748,9 +748,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -768,9 +768,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -788,9 +788,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -808,9 +808,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -828,9 +828,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -848,9 +848,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -868,9 +868,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -888,9 +888,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -908,9 +908,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -928,9 +928,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -948,9 +948,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -968,9 +968,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -989,9 +989,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1009,9 +1009,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1029,9 +1029,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1049,9 +1049,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1069,9 +1069,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1089,9 +1089,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1109,9 +1109,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1129,9 +1129,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1149,9 +1149,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1169,9 +1169,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>
@@ -1189,9 +1189,9 @@ const HomeTwoPortfolio = () => {
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
+                <h3 className="portfolioText">
                   <Link href="portfolio">Graphic Design</Link>
-                </h4>
+                </h3>
               </div>
             </div>
           </div>

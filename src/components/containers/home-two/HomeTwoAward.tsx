@@ -26,24 +26,23 @@ const HomeTwoAward = () => {
               </h2>
               <div className="paragraph">
                 <p>
-
                   We also feel privileged to have been awarded Best Performance Award in Website Development (2022) by Awwwards.com that celebrates the best and creativity in the world of the web. This belief has placed us on 1st place in the Shutterstock Competition in graphics as a testimony to our splendid work. Also, we secured 1st position in the Coursera App Development competition for designing brilliant and concise mobile applications. All these successes demonstrate our commitment to excellence in the delivery of all aspects of digital solutions.
                 </p>
               </div>
               <div className="award__content-meta">
                 <div className="single">
-                  <h4>2022</h4>
-                  <h4>Awwwards</h4>
+                  <h3 className="awwardsText">2022</h3>
+                  <h3 className="awwardsText">Awwwards</h3>
                   <p>Website of the day</p>
                 </div>
                 <div className="single">
-                  <h4>2023</h4>
-                  <h4>Shutter Stock</h4>
+                  <h3 className="awwardsText">2023</h3>
+                  <h3 className="awwardsText">Shutter Stock</h3>
                   <p>Graphic Design Contest</p>
                 </div>
                 <div className="single">
-                  <h4>2024</h4>
-                  <h4>Coursera</h4>
+                  <h3 className="awwardsText">2024</h3>
+                  <h3 className="awwardsText">Coursera</h3>
                   <p>App of the month</p>
                 </div>
               </div>

@@ -25,7 +25,7 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Idea Capture</h4>
+                    <h3>Idea Capture</h3>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
@@ -46,7 +46,7 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Plan Creation</h4>
+                    <h3>Plan Creation</h3>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
@@ -67,7 +67,7 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Smart Development</h4>
+                    <h3>Smart Development</h3>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
@@ -88,7 +88,7 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Continuous Improvement</h4>
+                    <h3>Continuous Improvement</h3>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
@@ -109,7 +109,7 @@ const UxProcess = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Smooth Deployment</h4>
+                    <h3>Smooth Deployment</h3>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">

@@ -76,7 +76,7 @@ const WorkSteps = () => {
                   0
                   <br />%
                 </span>
-                <h5> Idea Capture</h5>
+                <h3 className="workStepText"> Idea Capture</h3>
                 <div
                   className="work-thumb-hover d-none d-md-block" >
                   <p>By booking a consultation, we make conclusions about the goals you have set, generate ideas, plus filter them into a coherent idea of our cooperation that will meet your expectations.</p>
@@ -95,7 +95,7 @@ const WorkSteps = () => {
                   25
                   <br />%
                 </span>
-                <h5>Plan Creation</h5>
+                <h3 className="workStepText">Plan Creation</h3>
                 <div
                   className="work-thumb-hover d-none d-md-block" >
                   <p>Our team maintains clear goals and objectives for a project, which include putting into consideration the activities to be accomplished, the human resources and resources in general to be used, and also the time factor.</p>
@@ -114,7 +114,7 @@ const WorkSteps = () => {
                   50
                   <br />%
                 </span>
-                <h5>Smart Development</h5>
+                <h3 className="workStepText">Smart Development</h3>
                 <div
                   className="work-thumb-hover d-none d-md-block" >
                   <p>The constructed solutions are highly reliable and functional, while the coding and quality control used are accurate and detailed.</p>
@@ -133,7 +133,7 @@ const WorkSteps = () => {
                   75
                   <br />%
                 </span>
-                <h5> Continuous Improvement</h5>
+                <h3 className="workStepText"> Continuous Improvement</h3>
                 <div
                   className="work-thumb-hover d-none d-md-block" >
                   <p>We continuously refine the solution approach based on participation results to offer unparalleled results while improving user experiences.
@@ -153,7 +153,7 @@ const WorkSteps = () => {
                   100
                   <br />%
                 </span>
-                <h5>Smooth Deployment</h5>
+                <h3 className="workStepText">Smooth Deployment</h3>
                 <div
                   className="work-thumb-hover d-none d-md-block" >
                   <p>We deliver a successful implementation, the final product becomes fully integrated into your enterprise and is market ready.</p>

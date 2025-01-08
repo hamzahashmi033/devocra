@@ -41,7 +41,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -51,7 +51,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -61,7 +61,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -71,7 +71,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -81,7 +81,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -91,7 +91,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -101,7 +101,7 @@ const HomeTestimonial = () => {
           <SwiperSlide>
             <div className="testimonial__text-slider-single">
               <h2 className="h1">
-                <Link href="client-feedback">
+                <Link href="about-us">
                   client&apos;s testimonial
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
@@ -163,12 +163,12 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h2 className="testimonialText">
                               It has been such a great honor and privilege to partner with Devocra in the management of our enterprise. Their team not only came up with a novel piece of software but also a lot of good advice in the process. We are very satisfied with the results of the experiment.
-                            </h4>
+                            </h2>
                           </div>
                           <div className="content-cta">
-                            <h5>Scarlett Austin</h5>
+                            <h2 className="testimonialName">Scarlett Austin</h2>
                             <p>Co Managing Partner</p>
                           </div>
                         </div>
@@ -203,12 +203,12 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h3 className="testimonialText">
                               As a company, we went to Devocra for a software solution where we had a number of requirements and the company delivered more than expected. Our development team met our needs to a T, met every deadline given to them, and offered continued support after the launch of the site. Highly recommend!
-                            </h4>
+                            </h3>
                           </div>
                           <div className="content-cta">
-                            <h5>Omar Almidani</h5>
+                            <h2 className="testimonialName">Omar Almidani</h2>
                             <p>CEO</p>
                           </div>
                         </div>
@@ -243,12 +243,12 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h3 className="testimonialText">
                               We went to Devocra for a custom software and they are more than up to the task. Our development team was able to relate well to what we wanted and saw the project through to completion and even after that was willing to help if any issue arose. Highly recommend
-                            </h4>
+                            </h3>
                           </div>
                           <div className="content-cta">
-                            <h5>Cleitn Kimberly A</h5>
+                            <h2 className="testimonialName">Cleitn Kimberly A</h2>
                             <p>Founder</p>
                           </div>
                         </div>
@@ -283,12 +283,12 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h3 className="testimonialText">
                               All through the process, Devocra was all business with excellent work, timely delivery and great imagination. Their design team implemented on our concept a practical model of software that one can actually use to improving its performance was the work of their development team. A top-tier agency!
-                            </h4>
+                            </h3>
                           </div>
                           <div className="content-cta">
-                            <h5>Logan Anderson</h5>
+                            <h3 className="testimonialName">Logan Anderson</h3>
                             <p>Co-Founder and CEO</p>
                           </div>
                         </div>
@@ -323,12 +323,12 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h3 className="testimonialText">
                               It’s nice to see that Devocra is experienced in software and creative solutions. Organizations have benefited from them for a few projects; they always do quality and timely projects and very responsive to customer needs.
-                            </h4>
+                            </h3>
                           </div>
                           <div className="content-cta">
-                            <h5>Amelia</h5>
+                            <h3 className="testimonialName">Amelia</h3>
                             <p>Digital Manager</p>
                           </div>
                         </div>
@@ -355,19 +355,7 @@ const HomeTestimonial = () => {
           </button>
         </div>
       </div>
-      {/* <div className="other-section">
-        <Image
-          className="other-section-image"
-          src={
-            nextSlideIndex === 0
-              ? client1
-              : nextSlideIndex === 1
-                ? client2
-                : client3
-          }
-          alt="Next Slide Image"
-        />
-      </div> */}
+      
       <div className="lines d-none d-lg-flex">
         <div className="line"></div>
         <div className="line"></div>

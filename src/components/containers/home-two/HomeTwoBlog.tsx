@@ -27,9 +27,9 @@ const HomeTwoBlog = () => {
                       news & Blog
                       <i className="fa-solid fa-arrow-right"></i>
                     </span>
-                    <h2 className="title title-anim">
+                    <h3 className="title title-anim">
                       what&apos;s new in blog
-                    </h2>
+                    </h3>
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">
@@ -91,11 +91,11 @@ const HomeTwoBlog = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                <h4>
+                <h3>
                   <Link href="/">
                     Unleashing the Power of AI with Devocra: Transforming Innovation and Technology
                   </Link>
-                </h4>
+                </h3>
                 <div className="blog__single-meta">
                   <Link href="blog" className="sub-title">
                     Artifical Intelligence
@@ -114,11 +114,11 @@ const HomeTwoBlog = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                <h4>
+                <h3>
                   <Link href="/">
                     Explore the Power of CMS Solutions with Devocra: Simplify, Manage, and Grow Your Digital Presence
                   </Link>
-                </h4>
+                </h3>
                 <div className="blog__single-meta">
                   <Link href="blog" className="sub-title">
                     CMS
@@ -137,11 +137,11 @@ const HomeTwoBlog = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                <h4>
+                <h3>
                   <Link href="/">
                     DevOps Excellence with Devocra: Transforming Software Development and Operations
                   </Link>
-                </h4>
+                </h3>
                 <div className="blog__single-meta">
                   <Link href="blog" className="sub-title">
                     Devops
@@ -160,11 +160,11 @@ const HomeTwoBlog = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                <h4>
+                <h3>
                   <Link href="/">
                     Creative Graphic Designs by Devocra: Transforming Ideas into Visual Masterpieces
                   </Link>
-                </h4>
+                </h3>
                 <div className="blog__single-meta">
                   <Link href="blog" className="sub-title">
                     Graphic
@@ -183,11 +183,11 @@ const HomeTwoBlog = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                <h4>
+                <h3>
                   <Link href="/">
                     Boost Your Online Presence with SEO Strategies from Devocra
                   </Link>
-                </h4>
+                </h3>
                 <div className="blog__single-meta">
                   <Link href="blog" className="sub-title">
                     Marketing
@@ -206,11 +206,11 @@ const HomeTwoBlog = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                <h4>
+                <h3>
                   <Link href="/">
                     Building the FutureDevocra's Vision for Transformative Development
                   </Link>
-                </h4>
+                </h3>
                 <div className="blog__single-meta">
                   <Link href="blog" className="sub-title">
                     Development

@@ -38,7 +38,7 @@ const OurMission = () => {
         <div className="row gaper">
           <div className="col-12 col-lg-6">
             <div className="mission-s__single mission-s__single--alt fade-top">
-              <h3>Authenticity in Solutions</h3>
+              <h2 className="missionText">Authenticity in Solutions</h2>
               <div className="section__content-cta">
                 <p className="primary-text">
                   At Devocra, we hold ourselves to high standards of plain-talking, integrity, and dependability as far as software solutions are concerned. All projects are built to financial honesty, the requirements of your business, and to start and end with efficiency to bolster the long term success of a firm. This is further backed by our solid professionalism which ensures you deal with a reputable partner.
@@ -59,7 +59,7 @@ const OurMission = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="mission-s__single mission-s__single--alt fade-top">
-              <h3>Creativity with Integrity</h3>
+              <h2 className="missionText">Creativity with Integrity</h2>
               <div className="section__content-cta">
                 <p className="primary-text">
                   We encourage creativity in everything we do but we always take our client’s brand value system into consideration. Our designs look beyond style, embracing your mission and goal and providing rich digital experiences considerate enough to the eyes.
@@ -69,7 +69,7 @@ const OurMission = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="mission-s__single mission-s__single--alt fade-top">
-              <h3>Reliability in Development</h3>
+              <h2 className="missionText">Reliability in Development</h2>
               <div className="section__content-cta">
                 <p className="primary-text">
                   Reliability is our brand slogan. Whether clients are looking for easy to use mobile applications or shatterproof software, we guarantee stabilized end results. Our areas of specialization are based on innovation and precision to solve problems that will not require repeated visit or advice.
@@ -89,7 +89,7 @@ const OurMission = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="mission-s__single mission-s__single--alt fade-top">
-              <h3>Excellence in Execution</h3>
+              <h2 className="missionText">Excellence in Execution</h2>
               <div className="section__content-cta">
                 <p className="primary-text">
                   You will notice that quality isn’t just a dream, it is an assurance. In web development to all computer related services, every undertaking we carry out is marked by precision, accuracy, and effectiveness in use and efficiency in its outcomes for your business.

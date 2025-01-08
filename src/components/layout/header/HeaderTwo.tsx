@@ -61,6 +61,16 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     <ul>
 
 
+                      
+                      <li className="navbar__item navbar__item--has-children nav-fade">
+                        <button
+                          aria-label="dropdown menu"
+                          className=""
+                        >
+                          <Link href="about-us">ABOUT US</Link>
+                        </button>
+
+                      </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
@@ -94,15 +104,6 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             <Link href="/video-animation">Video Animation</Link>
                           </li>
                         </ul>
-                      </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className=""
-                        >
-                          <Link href="about-us">ABOUT US</Link>
-                        </button>
-
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button

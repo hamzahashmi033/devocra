@@ -16,11 +16,11 @@ const CtaTwo = () => {
                   <div className="cta-two__content">
                     {/* <span>Hello !</span> */}
                     <h2 className="title-anim">ready to work with us?</h2>
-                    <h5>
+                    <h3>
                       <Link href="tel:19-3265-003-420">
                         call: +19 3265 003 420
                       </Link>
-                    </h5>
+                    </h3>
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">
