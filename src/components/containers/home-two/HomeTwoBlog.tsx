@@ -4,15 +4,13 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import three from "public/images/blog/three.png";
-import four from "public/images/blog/four.png";
-import five from "public/images/blog/five.png";
-import ai from "public/images/blog/ai.jpg"
-import cms from "public/images/blog/cms.jpg"
-import devops from "public/images/blog/devops.jpg"
-import graphicDesign from "public/images/blog/graphic_design.jpg"
-import seo from "public/images/blog/seo.jpg"
-import development from "public/images/blog/development.jpg"
+
+import ai from "public/images/blog/ai.webp"
+import cms from "public/images/blog/cms.webp"
+import devops from "public/images/blog/devops.webp"
+import graphicDesign from "public/images/blog/graphic_design.webp"
+import seo from "public/images/blog/seo.webp"
+import development from "public/images/blog/development.webp"
 const HomeTwoBlog = () => {
   return (
     <section className="section blog blog-two">
@@ -27,9 +25,9 @@ const HomeTwoBlog = () => {
                       news & Blog
                       <i className="fa-solid fa-arrow-right"></i>
                     </span>
-                    <h3 className="title title-anim">
+                    <h2 className="title title-anim">
                       what&apos;s new in blog
-                    </h3>
+                    </h2>
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">

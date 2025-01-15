@@ -172,6 +172,7 @@ const Layout = ({
   return (
     <Fragment>
       <Head>
+
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
@@ -186,16 +187,17 @@ const Layout = ({
           content="Transform your business with innovative software development, app solutions, graphic design, 
 video animation, and erp software development services."
         />
-        
+
         <link rel="canonical" href="https://www.devocra.com" />
 
-       
+
         <meta name="robots" content="index, follow" />
 
-        
+
         <meta name="author" content="Devocra" />
 
-        
+        <meta name="google-site-verification" content="onKEopabAikDxxcFh6B25lOl38KuywWKbctb10NBzuA" />
+
         <meta name="publisher" content="Devocra" />
       </Head>
       <div className={combinedClassName}>

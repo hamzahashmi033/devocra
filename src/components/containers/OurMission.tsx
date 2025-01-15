@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import one from "public/images/mission/one.png";
 import two from "public/images/mission/two.png";
-import About1 from "public/images/achievement/about-1.png"
-import About4 from "public/images/achievement/about-4.png"
-import About2 from "public/images/achievement/about-2.png"
-import About3 from "public/images/achievement/about-3.png"
+import About1 from "public/images/achievement/about-1.webp"
+import About4 from "public/images/achievement/about-4.webp"
+import About2 from "public/images/achievement/about-2.webp"
+import About3 from "public/images/achievement/about-3.webp"
 
 const OurMission = () => {
   return (

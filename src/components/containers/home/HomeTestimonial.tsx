@@ -7,11 +7,11 @@ import "swiper/swiper-bundle.css";
 import sthumb from "public/images/testimonial/s-thumb.png";
 import sthumbtwo from "public/images/testimonial/s-thumb-two.png";
 import sthumbthree from "public/images/testimonial/s-thumb-three.png";
-import client1 from "public/images/testimonial/client1.jpg"
-import client2 from "public/images/testimonial/client2.jpg"
-import client3 from "public/images/testimonial/client3.jpg"
-import client4 from "public/images/testimonial/client4.jpg"
-import client5 from "public/images/testimonial/client5.jpg"
+import client1 from "public/images/testimonial/client1.webp"
+import client2 from "public/images/testimonial/client2.webp"
+import client3 from "public/images/testimonial/client3.webp"
+import client4 from "public/images/testimonial/client4.webp"
+import client5 from "public/images/testimonial/client5.webp"
 import client6 from "public/images/testimonial/client6.jpg"
 const HomeTestimonial = () => {
   const [nextSlideIndex, setNextSlideIndex] = useState<number>(1);

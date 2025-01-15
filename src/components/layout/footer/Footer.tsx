@@ -23,12 +23,14 @@ const Footer = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  Suite 170 Alexandria, USA
+                  6519 Greenhouse Rd, <br></br>
+                  Katy, 77449, TX, US
+                  
                 </Link>
 
                 <Link href="tel:406-555-0120">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  (406) 555-0120
+                  +1 281-297-8909
                 </Link>
                 <Link href="mailto:info@xpovio.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
@@ -63,7 +65,7 @@ const Footer = () => {
                       <Link href="contact-us">Contact US</Link>
                     </li>
                     <li>
-                      <Link href="blogs">Blogs</Link>
+                      <Link href="blog">Blogs</Link>
                     </li>
                   </ul>
                 </div>
@@ -140,7 +142,7 @@ const Footer = () => {
                     <p>
                       Copyright &copy;
                       <span id="copyYear">{currentYear}</span> Devocra{" "}
-                     
+
                     </p>
                   </div>
                 </div>

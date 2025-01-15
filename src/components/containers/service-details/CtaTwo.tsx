@@ -18,7 +18,7 @@ const CtaTwo = () => {
                     <h2 className="title-anim">ready to work with us?</h2>
                     <h3>
                       <Link href="tel:19-3265-003-420">
-                        call: +19 3265 003 420
+                        call: +1 281-297-8909
                       </Link>
                     </h3>
                   </div>

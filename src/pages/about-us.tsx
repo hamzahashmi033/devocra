@@ -12,6 +12,7 @@ import HomeTwoSponsor from "@/components/containers/home-two/HomeTwoSponsor";
 import HomeTwoAward from "@/components/containers/home-two/HomeTwoAward";
 import OurMission from "@/components/containers/OurMission";
 import ServiceMain from "@/components/containers/ServiceMain";
+import FaqMain from "@/components/containers/FaqMain";
 
 const AboutUs = () => {
   return (
@@ -23,6 +24,7 @@ const AboutUs = () => {
       <ServiceMain />
       <HomeTestimonial />
       <HomeTwoSponsor />
+      <FaqMain/>
       <CtaTwo />
     </Layout>
   );

@@ -3,14 +3,14 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/partners/icone-1.png";
-import two from "public/images/partners/icone-2.png";
-import three from "public/images/partners/icone-3.png";
-import four from "public/images/partners/icone-4.png";
-import five from "public/images/partners/icone-5.png";
-import six from "public/images/partners/icone-6.png";
-import seven from "public/images/partners/icone-7.png";
-import eight from "public/images/partners/icone-8.png";
+import one from "public/images/partners/icone-1.webp";
+import two from "public/images/partners/icone-2.webp";
+import three from "public/images/partners/icone-3.webp";
+import four from "public/images/partners/icone-4.webp";
+import five from "public/images/partners/icone-5.webp";
+import six from "public/images/partners/icone-6.webp";
+import seven from "public/images/partners/icone-7.webp";
+import eight from "public/images/partners/icone-8.webp";
 
 
 const HomeTwoSponsor = () => {
@@ -32,7 +32,7 @@ const HomeTwoSponsor = () => {
             <div className="sponsor__slider-w">
               <Swiper
                 slidesPerView={1}
-                spaceBetween={100}
+                spaceBetween={70}
                 slidesPerGroup={1}
                 speed={1200}
                 loop={true}
@@ -83,7 +83,7 @@ const HomeTwoSponsor = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={five} alt="Image" width={140} height={140}/>
+                    <Image src={five} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>

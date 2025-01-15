@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import blogthumb from "public/images/offer/website.jpg";
-import appthumb from "public/images/offer/app.jpg";
-import marketingthumb from "public/images/offer/marketing.jpg";
-import graphicthumb from "public/images/offer/graphic.jpg";
-import aithumb from "public/images/offer/ai.jpg";
-import devopsthumb from "public/images/offer/devops.jpg";
-import star from "public/images/offer/star.png";
+import blogthumb from "public/images/offer/website.webp";
+import appthumb from "public/images/offer/app.webp";
+import marketingthumb from "public/images/offer/marketing.webp";
+import graphicthumb from "public/images/offer/graphic.webp";
+import aithumb from "public/images/offer/ai.webp";
+import devopsthumb from "public/images/offer/devops.webp";
+import cmsthumb from "public/images/offer/cms.webp";
+import star from "public/images/offer/star.webp";
 
 const HomeOffer = () => {
   useEffect(() => {
@@ -36,7 +37,7 @@ const HomeOffer = () => {
   return (
     <section className="section offer fade-wrapper light">
       <div className="container">
-        <div className="row gaper">
+        <div className="row ">
           <div className="col-12 col-lg-5">
             <div className="offer__content section__content">
               <span className="sub-title">
@@ -44,7 +45,7 @@ const HomeOffer = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                Giving Your Business Some Great Ideas
+                Bringing Big Ideas to Your Business
               </h2>
               <div className="paragraph">
                 <p>
@@ -58,7 +59,7 @@ const HomeOffer = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-7 col-xl-6 offset-xl-1">
+          <div className="col-12 col-lg-5 col-xl-6 offset-xl-1">
             <div className="offer__cta">
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
@@ -102,7 +103,7 @@ const HomeOffer = () => {
                   </Link>
                 </h3>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={marketingthumb} alt="Image" />
+                  <Image src={cmsthumb} alt="Image" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">

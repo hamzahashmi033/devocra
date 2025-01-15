@@ -5,9 +5,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
-import videobg from "public/images/banner/video-bg.png";
-import dotlarge from "public/images/agency/dot-large.png";
-import arrow from "public/images/banner/arrow.png";
+import videobg from "public/images/banner/video-bg.webp";
+import dotlarge from "public/images/agency/dot-large.webp";
+import arrow from "public/images/banner/arrow.webp";
 
 const HomeThreeBanner = () => {
   const [videoActive, setVideoActive] = useState(false);
@@ -37,7 +37,7 @@ const HomeThreeBanner = () => {
             className="banner-three__slider banner-three-alt"
           >
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/development.png')" }}>
+              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/development.webp')" }}>
               <div className="overlay_bg"></div>
                 <div className="content">
                   <h1>
@@ -61,7 +61,7 @@ const HomeThreeBanner = () => {
               </div>
             </SwiperSlide >
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/cms.png')" }}>
+              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/cms.webp')" }}>
               <div className="overlay_bg"></div>
                 <div className="content">
                   <h2>
@@ -84,7 +84,7 @@ const HomeThreeBanner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/marketing.png')" }}>
+              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/marketing.webp')" }}>
               <div className="overlay_bg"></div>
                 <div className="content">
                   <h2>
@@ -109,7 +109,7 @@ const HomeThreeBanner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/graphicDesign.png')" }}>
+              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/graphicDesign.webp')" }}>
               <div className="overlay_bg"></div>
                 <div className="content">
                   <h2>
@@ -131,7 +131,7 @@ const HomeThreeBanner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/devops.png')" }}>
+              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/devops.webp')" }}>
               <div className="overlay_bg"></div>
                 <div className="content">
                   <h2>
@@ -157,7 +157,7 @@ const HomeThreeBanner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/ai.jpg')" }}>
+              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/ai.webp')" }}>
                 <div className="content">
                   <h2>
                     Groundbreaking Artificial Intelligence Service </h2>

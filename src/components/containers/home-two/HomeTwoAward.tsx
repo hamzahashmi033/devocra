@@ -4,7 +4,7 @@ import Link from "next/link";
 import awardthumb from "public/images/award-thumb.png";
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
-import Awwards from "public/images/achievement/awwards1.jpg"
+import Awwards from "public/images/achievement/awwards1.webp"
 const HomeTwoAward = () => {
   return (
     <section className="section award">

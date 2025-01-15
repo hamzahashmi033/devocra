@@ -8,7 +8,7 @@ import CtaTwo from "@/components/containers/service-details/CtaTwo";
 const OurPortfolio = () => {
   return (
     <Layout header={2} footer={1} video={0}>
-      <CmnBanner title="Portfolio Gallery" navigation="Portfolio Gallery" />
+      <CmnBanner title="Portfolio" navigation="Portfolio Gallery" />
       < Portfolio />
       <div className="lines d-none d-lg-flex">
         <div className="line"></div>
