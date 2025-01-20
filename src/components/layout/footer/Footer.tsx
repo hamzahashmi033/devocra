@@ -1,8 +1,10 @@
+import dynamic from 'next/dynamic';
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "public/images/devocralogo.png";
-
+const TrustpilotWidget = dynamic(() => import('./TrustpilotWidget'), { ssr: false });
+const ClutchWidget = dynamic(() => import('./ClutchWidget'), { ssr: false });
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
@@ -25,7 +27,7 @@ const Footer = () => {
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
                   6519 Greenhouse Rd, <br></br>
                   Katy, 77449, TX, US
-                  
+
                 </Link>
 
                 <Link href="tel:406-555-0120">
@@ -128,6 +130,14 @@ const Footer = () => {
                       </button>
                     </div>
                   </form>
+                  <div className='row'>
+                    <div className='col-8'>
+                      <TrustpilotWidget />
+                    </div>
+                    <div className='col-4'>
+                      <ClutchWidget />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -138,16 +148,20 @@ const Footer = () => {
             <div className="footer__copyright">
               <div className="row align-items-center gaper">
                 <div className="col-12 col-lg-8">
+
                   <div className="footer__copyright-text text-center text-lg-start">
                     <p>
                       Copyright &copy;
                       <span id="copyYear">{currentYear}</span> Devocra{" "}
-
                     </p>
+
                   </div>
+
+
                 </div>
                 <div className="col-12 col-lg-4">
                   <div className="social justify-content-center justify-content-lg-end">
+
                     <Link href="https://www.facebook.com/" target="_blank">
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>

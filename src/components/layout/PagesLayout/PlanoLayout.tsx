@@ -4,19 +4,19 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import VanillaTilt from "vanilla-tilt";
 import { useRouter } from "next/router";
-import Header from "./header/Header";
-import HeaderTwo from "./header/HeaderTwo";
-import HeaderThree from "./header/HeaderThree";
-import HeaderFour from "./header/HeaderFour";
-import HeaderFive from "./header/HeaderFive";
-import Footer from "./footer/Footer";
-import FooterTwo from "./footer/FooterTwo";
-import FooterThree from "./footer/FooterThree";
-import FooterFour from "./footer/FooterFour";
-import FooterFive from "./footer/FooterFive";
-import VideoModal from "./VideoModal";
-import ScrollProgressBtn from "./ScrollProgressBtn";
-import CustomCursor from "./CustomCursor";
+import Header from "../header/Header";
+import HeaderTwo from "../header/HeaderTwo";
+import HeaderThree from "../header/HeaderThree";
+import HeaderFour from "../header/HeaderFour";
+import HeaderFive from "../header/HeaderFive";
+import Footer from "../footer/Footer";
+import FooterTwo from "../footer/FooterTwo";
+import FooterThree from "../footer/FooterThree";
+import FooterFour from "../footer/FooterFour";
+import FooterFive from "../footer/FooterFive";
+import VideoModal from "../VideoModal";
+import ScrollProgressBtn from "../ScrollProgressBtn";
+import CustomCursor from "../CustomCursor";
 import SplitType from "split-type";
 
 type LayoutProps = {
@@ -182,7 +182,7 @@ const Layout = ({
           href="/images/fav.png"
           type="image/x-icon"
         />
-        <title>Elite Software & Digital Solutions Company Globally</title>
+        <title>{title}</title>
         <meta name="keywords" content="cms development services, wordpress cms development services, custom cms development services, headless cms development services, sitecore cms development services, cms development services india, drupal cms development services, cms development services in usa, contentful cms development services, .net cms development services company united states, open source cms development services company us, contentstack cms development services, sanity cms development services, strapi cms development services, craft cms development services, custom cms development services usa, refinery cms development services, hubspot cms development services, radiant cms development services, camaleon cms development services, digital marketing services, marketing services, social media marketing services, staples print & marketing services, content marketing services, email marketing services, amazon marketing services, online marketing services, video marketing services, search engine marketing services, growth marketing services, internet marketing services, seo marketing services, digital marketing services near me, affordable digital marketing services, digital marketing services for small business, ecommerce marketing services, dental marketing services, book marketing services, free email marketing services, cloud and devops services, devops services provider, devops services and solutions, graphic design services, unlimited graphic design services, online graphic design services, custom graphic design services, best unlimited graphic design services, graphic design services near me, graphic design services in usa, best graphic design services, professional graphic design services, lawn graphic design services, digital graphic design services, branding and graphic design services, creative graphic design services, graphic design services company, graphic design services in india, graphic design services for small business, social media graphic design services, outsource graphic design services, graphic design services malaysia, affordable graphic design services, video animation, video animation company, video animation software, ai video animation, ai video animation generator, explainer video animation, video animation production, video animation agency, video animation for business, create video animation, video animation toronto, mobile app solutions, enterprise app solutions, web app solution, app development company, theappsolutions, the app solutions, application development company, mobile app development company, website development services, web development services, healthcare software, medical software, mobile app development services." />
         <meta
           name="description"
@@ -198,12 +198,7 @@ video animation, and erp software development services."
 
         <meta name="author" content="Devocra" />
 
-        <meta name="google-site-verification" content="onKEopabAikDxxcFh6B25lOl38KuywWKbctb10NBzuA" />
-
-        <meta name="publisher" content="Devocra" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTTFHCG2E1"></script>
-        <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-        <script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script>
+       
       </Head>
       <div className={combinedClassName}>
         {header === 1 && (

@@ -30,18 +30,28 @@ export default function App({ Component, pageProps }: AppProps) {
           `,
         }}
       />
-      {/* Google Tag Manager (noscript) */}
-      <noscript>
-        <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-PX9XGF2Q"
-          height="0"
-          width="0"
-          style={{ display: "none", visibility: "hidden" }}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FTTFHCG2E1');`
+        }}
         />
-      </noscript>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Component {...pageProps} />
-      </Suspense>
+  
+    {/* Google Tag Manager (noscript) */ }
+    < noscript >
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-PX9XGF2Q"
+      height="0"
+      width="0"
+      style={{ display: "none", visibility: "hidden" }}
+    />
+      </noscript >
+    <Suspense fallback={<div>Loading...</div>}>
+      <Component {...pageProps} />
+    </Suspense>
     </>
   );
 }
