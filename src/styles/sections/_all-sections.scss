@@ -623,7 +623,11 @@
     left: 40%;
     transform: translate(-40%, -20%);
   }
-
+  // h2{
+  //   border: 1px solid white;
+  //   width: 100%;
+  
+  // }
   .offer__cta {
     .sub-title {
       display: inline-flex;
@@ -655,7 +659,6 @@
         font-weight: 500;
         color: white;
         gap: 16px;
-
         i {
           font-weight: 900;
           -webkit-text-fill-color: transparent;
@@ -4152,7 +4155,6 @@
     div {
       text-transform: lowercase !important;
       font-weight: 600;
-
       &:nth-child(1) {
         text-transform: capitalize !important;
       }

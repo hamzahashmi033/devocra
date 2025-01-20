@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
+import CommonLayout from "@/components/layout/CommonLayout";
 import ServiceDetailsMain from "@/components/containers/service-details/ServiceDetailsMain";
 import ServiceDetailsBanner from "@/components/layout/banner/ServiceDetailsBanner";
 import UxProcess from "@/components/containers/service-details/UxProcess";
@@ -24,7 +24,7 @@ const desc5 = [
 ]
 const VideoAnimation = () => {
     return (
-        <Layout header={2} footer={1} video={false}>
+        <CommonLayout header={2} footer={1} video={false} title={"aaa"} keywords={"abc"} description={"abcd"}>
             <ServiceDetailsBanner title={"Video Animation"} breadcrumb={"Video Animation"} />
             <ServiceDetailsMain mainHead={"Video Animation at Devocra"} mainDesc={mainDesc} head1={"2D Animation"} desc1={desc1}
                 head2={"3D Animation"} desc2={desc2}
@@ -39,7 +39,7 @@ const VideoAnimation = () => {
             />
             <UxProcess />
             <CtaTwo />
-        </Layout>
+        </CommonLayout>
     )
 }
 export default VideoAnimation

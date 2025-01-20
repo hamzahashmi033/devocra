@@ -56,6 +56,7 @@ const HomeTwoPortfolio = () => {
   const handleTabClick = (filter: any) => {
     setActiveFilter(filter);
   };
+  const line = ["devocra portfolio","devocra portfolio","devocra portfolio","devocra portfolio","devocra portfolio","devocra portfolio","devocra portfolio",]
   return (
     <section className="section portfolio portfolio-two portfolio-filter fade-wrapper">
       <div className="portfolio__text-slider-w">
@@ -74,76 +75,21 @@ const HomeTwoPortfolio = () => {
           }}
           className="portfolio__text-slider"
         >
-          <SwiperSlide>
+          {line.map((item,index)=> {
+            return(
+              <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h3 className="h1">
                 <Link href="portfolio">
-                  devocra portfolio
+                 {item}
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h3>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h3 className="h1 str">
-                <Link href="portfolio">
-                  devocra portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h3>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h3 className="h1">
-                <Link href="portfolio">
-                  devocra portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h3>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h3 className="h1 str">
-                <Link href="portfolio">
-                  devocra portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h3>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h3 className="h1">
-                <Link href="portfolio">
-                  devocra portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h3>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h3 className="h1 str">
-                <Link href="portfolio">
-                  devocra portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h3>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="portfolio__text-slider-single">
-              <h3 className="h1">
-                <Link href="portfolio">
-                  devocra portfolio
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h3>
-            </div>
-          </SwiperSlide>
+            )
+          })}
+          
         </Swiper>
       </div>
       <div className="">

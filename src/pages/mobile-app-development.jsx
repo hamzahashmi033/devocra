@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
+import CommonLayout from "@/components/layout/CommonLayout";
 import ServiceDetailsMain from "@/components/containers/service-details/ServiceDetailsMain";
 import ServiceDetailsBanner from "@/components/layout/banner/ServiceDetailsBanner";
 import UxProcess from "@/components/containers/service-details/UxProcess";
@@ -25,7 +25,7 @@ const desc5 = [
 
 const MobileAppDevelopment = () => {
     return (
-        <Layout header={2} footer={1} video={false}>
+        <CommonLayout header={2} footer={1} video={false} title={"aaa"} keywords={"abc"} description={"abcd"}>
             <ServiceDetailsBanner title={"Mobile App Development"} breadcrumb={"App Development"} />
             <ServiceDetailsMain mainHead={"Mobile App Development Services at Devocra"} mainDesc={mainDesc} head1={"Native App Development"} desc1={desc1}
                 head2={"Hybrid App Development"} desc2={desc2}
@@ -40,7 +40,7 @@ const MobileAppDevelopment = () => {
             />
             <UxProcess />
             <CtaTwo />
-        </Layout>
+        </CommonLayout>
     )
 
 }

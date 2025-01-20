@@ -44,7 +44,7 @@ const FaqMain = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    I&apos;m a total beginner. Can I still follow along?
+                    What types of software development services does Devocra offer?
                   </button>
                 </h5>
                 <div
@@ -56,10 +56,7 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      At Devocra, we specialize in custom software development, delivering scalable and innovative solutions tailored to your business needs. From enterprise-grade applications to niche software tools, our team ensures high-quality, reliable solutions with a user-centric approach.
                     </p>
                   </div>
                 </div>
@@ -82,7 +79,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Will you be updating the program?
+                    How can Devocra help with website and app development?
                   </button>
                 </h5>
                 <div
@@ -94,10 +91,7 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      We create dynamic websites and mobile applications optimized for performance, scalability, and user experience. Our services cover front-end and back-end development, responsive design, e-commerce solutions, and seamless integrations with third-party tools.
                     </p>
                   </div>
                 </div>
@@ -120,7 +114,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Can I get an invoice for my purchase?
+                    What DevOps services do you provide to streamline development workflows?
                   </button>
                 </h5>
                 <div
@@ -132,10 +126,7 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      Devocra’s DevOps services include CI/CD pipeline setup, cloud migration, infrastructure as code (IaC), monitoring, and automation. We help businesses improve operational efficiency and accelerate their software delivery cycles.
                     </p>
                   </div>
                 </div>
@@ -158,7 +149,7 @@ const FaqMain = () => {
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    What is global search engine optimization?
+                    Can Devocra assist with branding and marketing strategies?
                   </button>
                 </h5>
                 <div
@@ -170,10 +161,42 @@ const FaqMain = () => {
                 >
                   <div className="accordion-body">
                     <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure.
+                      Yes, we offer a range of marketing and graphic design services, including logo design, social media marketing, content creation, and branding strategies to help businesses establish a strong online presence and attract their target audience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  "accordion-item content__space fade-top" +
+                  (imgTab === 4 ? " faq-one-active" : " ")
+                }
+              >
+                <h5 className="accordion-header" id="headingFour">
+                  <button
+                    className={
+                      (imgTab == 4 ? "  " : " collapsed") + " accordion-button"
+                    }
+                    onClick={() => setImgTab(imgTab === 4 ? -1 : 4)}
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Do you provide CMS development for content-driven websites?
+                  </button>
+                </h5>
+                <div
+                  id="collapseFour"
+                  className={`accordion-collapse collapse${imgTab === 4 ? " show " : ""
+                    }`}
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordion"
+                >
+                  <div className="accordion-body">
+                    <p>
+                    Absolutely! Devocra specializes in CMS development for platforms like WordPress, Joomla, and custom-built solutions. We deliver easy-to-manage, SEO-friendly websites tailored to your content and business requirements.
                     </p>
                   </div>
                 </div>

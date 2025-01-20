@@ -19,10 +19,10 @@ const ContactMain = () => {
               <div className="content">
                 <h3>Phone & Fax</h3>
                 <p>
-                  <Link href="tel:197-90-56-780">US : +197-90-56-780</Link>
+                  <Link href="tel:197-90-56-780">US : +1 281-297-8909</Link>
                 </p>
                 <p>
-                  <Link href="tel:197-90-56-780">PK : +44-208-1234567</Link>
+                  <Link href="tel:197-90-56-780">PK : +9231-8096486</Link>
                 </p>
               </div>
             </div>
@@ -55,10 +55,19 @@ const ContactMain = () => {
                 <h3>Our Location</h3>
                 <p>
                   <Link
-                    href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
+                    href="https://www.google.com/maps/d/u/0/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=29.87350785608051%2C-95.70397795138499&z=20#"
                     target="_blank"
                   >
-                    85 Ketch Harbour RoadBensalem, PA 19020
+                    6519 Greenhouse Rd, <br></br>
+                    Katy, 77449, TX, US
+                  </Link>
+                </p>
+                <p>
+                  <Link
+                    href="https://www.google.com/maps/d/u/0/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=24.86274088931823%2C67.06774635000001&z=15#"
+                    target="_blank"
+                  >
+                    Block 6 P.E.C.H.S., Karachi, Sindh, Pakistan
                   </Link>
                 </p>
               </div>

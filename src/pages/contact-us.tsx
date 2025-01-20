@@ -1,16 +1,16 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
+import CommonLayout from "@/components/layout/CommonLayout";
 import CmnBanner from "@/components/layout/banner/CmnBanner";
 import ContactMain from "@/components/containers/ContactMain";
 import CtaTwo from "@/components/containers/service-details/CtaTwo";
 
 const ContactUs = () => {
   return (
-    <Layout header={2} footer={1} video={0}>
+    <CommonLayout header={2} footer={1} video={0} title={"aaa"} keywords={"abc"} description={"abcd"}>
       <CmnBanner title="Contact Us" navigation="Contact Us" />
       <ContactMain />
       <CtaTwo />
-    </Layout>
+    </CommonLayout>
   );
 };
 

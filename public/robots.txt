@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://devocra.com/sitemap.xml

@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
+import CommonLayout from "@/components/layout/CommonLayout";
 import ServiceDetailsMain from "@/components/containers/service-details/ServiceDetailsMain";
 import ServiceDetailsBanner from "@/components/layout/banner/ServiceDetailsBanner";
 import UxProcess from "@/components/containers/service-details/UxProcess";
@@ -24,7 +24,7 @@ const desc5 = [
 ]
 const GraphicDesign = () => {
     return (
-        <Layout header={2} footer={1} video={false}>
+        <CommonLayout header={2} footer={1} video={false} title={"aaa"} keywords={"abc"} description={"abcd"}>
             <ServiceDetailsBanner title={"Graphic Design"} breadcrumb={"Graphic Design"} />
             <ServiceDetailsMain mainHead={"Graphic Design Services at Devocra"} mainDesc={mainDesc} head1={"Logo Design"} desc1={desc1}
                 head2={"Packaging Design"} desc2={desc2}
@@ -39,7 +39,7 @@ const GraphicDesign = () => {
             />
             <UxProcess />
             <CtaTwo />
-        </Layout>
+        </CommonLayout>
     )
 }
 export default GraphicDesign

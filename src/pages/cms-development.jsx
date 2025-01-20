@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
+import CommonLayout from "@/components/layout/CommonLayout";
 import ServiceDetailsMain from "@/components/containers/service-details/ServiceDetailsMain";
 import ServiceDetailsBanner from "@/components/layout/banner/ServiceDetailsBanner";
 import UxProcess from "@/components/containers/service-details/UxProcess";
@@ -24,7 +24,7 @@ const desc5 = [
 ]
 const CmsDevelopment = () => {
     return (
-        <Layout header={2} footer={1} video={false}>
+        <CommonLayout header={2} footer={1} video={false} title={"aaa"} keywords={"abc"} description={"abcd"}>
             <ServiceDetailsBanner title={"CMS Development"} breadcrumb={"CMS Development"} />
             <ServiceDetailsMain mainHead={"CMS Development Services at Devocra"} mainDesc={mainDesc} head1={"WordPress Development"} desc1={desc1}
                 head2={"Shopify Development"} desc2={desc2}
@@ -39,7 +39,7 @@ const CmsDevelopment = () => {
             />
             <UxProcess />
             <CtaTwo />
-        </Layout>
+        </CommonLayout>
     )
 }
 export default CmsDevelopment

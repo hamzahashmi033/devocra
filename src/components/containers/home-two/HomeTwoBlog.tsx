@@ -5,12 +5,46 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
-import ai from "public/images/blog/ai.webp"
-import cms from "public/images/blog/cms.webp"
-import devops from "public/images/blog/devops.webp"
-import graphicDesign from "public/images/blog/graphic_design.webp"
-import seo from "public/images/blog/seo.webp"
-import development from "public/images/blog/development.webp"
+const arr = [  
+  {
+  date:"MARCH 23, 2024",
+  title:"Artifical Intelligence",
+  description:"Unleashing the Power of AI with Devocra: Transforming Innovation and Technology",
+  img:"/images/blog/ai.webp",
+},
+{
+  date:"MARCH 23, 2024",
+  title:"CMS",
+  description:"Explore the Power of CMS Solutions with Devocra: Simplify, Manage, and Grow Your Digital Presence",
+  img:"/images/blog/cms.webp" , 
+},
+{
+  date:"MARCH 23, 2024",
+  title:"Devops",
+  description:" DevOps Excellence with Devocra: Transforming Software Development and Operations",
+  img:"/images/blog/devops.webp",
+},
+{
+  date:"MARCH 23, 2024",
+  title:"Graphic",
+  description:" Creative Graphic Designs by Devocra: Transforming Ideas into Visual Masterpieces",
+  img:"/images/blog/graphic_design.webp",
+},
+{
+  date:"MARCH 23, 2024",
+  title:"Marketing",
+  description:"Boost Your Online Presence with SEO Strategies from Devocra",
+  img:"/images/blog/seo.webp" ,
+},
+{
+  date:"MARCH 23, 2024",
+  title:"Development",
+  description:"Building the FutureDevocra's Vision for Transformative Development",
+  img: "/images/blog/development.webp",
+}
+
+]     
+
 const HomeTwoBlog = () => {
   return (
     <section className="section blog blog-two">
@@ -81,145 +115,34 @@ const HomeTwoBlog = () => {
           }}
           className="blog-two__slider"
         >
-          <SwiperSlide>
+          {arr.map((item,index) => {
+            return(
+              <SwiperSlide>
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
                 <Link href="blog-single">
-                  <Image src={ai} alt="Image" />
+                  <Image src={item.img} alt="Image" width={140} height={140} />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h3>
                   <Link href="/">
-                    Unleashing the Power of AI with Devocra: Transforming Innovation and Technology
+                    {item.description}
                   </Link>
                 </h3>
                 <div className="blog__single-meta">
                   <Link href="blog" className="sub-title">
-                    Artifical Intelligence
+                    {item.title}
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
-                  <p>MARCH 23, 2024</p>
+                  <p>{item.date}</p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="blog-single">
-                  <Image src={cms} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h3>
-                  <Link href="/">
-                    Explore the Power of CMS Solutions with Devocra: Simplify, Manage, and Grow Your Digital Presence
-                  </Link>
-                </h3>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    CMS
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2024</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="/">
-                  <Image src={devops} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h3>
-                  <Link href="/">
-                    DevOps Excellence with Devocra: Transforming Software Development and Operations
-                  </Link>
-                </h3>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    Devops
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="/">
-                  <Image src={graphicDesign} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h3>
-                  <Link href="/">
-                    Creative Graphic Designs by Devocra: Transforming Ideas into Visual Masterpieces
-                  </Link>
-                </h3>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    Graphic
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="/">
-                  <Image src={seo} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h3>
-                  <Link href="/">
-                    Boost Your Online Presence with SEO Strategies from Devocra
-                  </Link>
-                </h3>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    Marketing
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2024</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="blog-two__slider-single topy-tilt">
-              <div className="blog__single-thumb">
-                <Link href="/">
-                  <Image src={development} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h3>
-                  <Link href="/">
-                    Building the FutureDevocra's Vision for Transformative Development
-                  </Link>
-                </h3>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    Development
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-
+            )
+          })}
+          
         </Swiper>
       </div>
     </section>

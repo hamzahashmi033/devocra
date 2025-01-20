@@ -37,7 +37,7 @@ const HomeOffer = () => {
   return (
     <section className="section offer fade-wrapper light">
       <div className="container">
-        <div className="row gaper">
+        <div className="row ">
           <div className="col-12 col-lg-5">
             <div className="offer__content section__content">
               <span className="sub-title">
@@ -45,7 +45,7 @@ const HomeOffer = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                Giving Your Business Some Great Ideas
+                Bringing Big Ideas to Your Business
               </h2>
               <div className="paragraph">
                 <p>
@@ -59,7 +59,7 @@ const HomeOffer = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-7 col-xl-6 offset-xl-1">
+          <div className="col-12 col-lg-5 col-xl-6 offset-xl-1">
             <div className="offer__cta">
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">

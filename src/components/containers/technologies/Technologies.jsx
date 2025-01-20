@@ -4,6 +4,9 @@ import { Autoplay, Navigation } from "swiper/modules";
 import TechnologyItem from "./TechnologyItem.jsx"
 import "swiper/swiper-bundle.css";
 import { useState } from "react";
+
+const line =["devocra Technologies","devocra Technologies","devocra Technologies","devocra Technologies","devocra Technologies","devocra Technologies","devocra Technologies"]
+
 const Technologies = () => {
     const [technologies, setTechnologies] = useState('mobile_apps')
     return (
@@ -24,77 +27,22 @@ const Technologies = () => {
                             reverseDirection: false,
                         }}
                         className="portfolio__text-slider"
-                    >
-                        <SwiperSlide>
-                            <div className="portfolio__text-slider-single">
-                                <h3 className="h1">
-                                    <Link href="portfolio">
-                                        devocra Technologies
-                                        <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                                    </Link>
-                                </h3>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="portfolio__text-slider-single">
-                                <h3 className="h1 str">
-                                    <Link href="portfolio">
-                                        devocra Technologies
-                                        <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                                    </Link>
-                                </h3>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="portfolio__text-slider-single">
-                                <h3 className="h1">
-                                    <Link href="portfolio">
-                                        devocra Technologies
-                                        <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                                    </Link>
-                                </h3>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="portfolio__text-slider-single">
-                                <h3 className="h1 str">
-                                    <Link href="portfolio">
-                                        devocra Technologies
-                                        <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                                    </Link>
-                                </h3>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="portfolio__text-slider-single">
-                                <h3 className="h1">
-                                    <Link href="portfolio">
-                                        devocra Technologies
-                                        <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                                    </Link>
-                                </h3>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="portfolio__text-slider-single">
-                                <h3 className="h1 str">
-                                    <Link href="portfolio">
-                                        devocra Technologies
-                                        <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                                    </Link>
-                                </h3>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="portfolio__text-slider-single">
-                                <h3 className="h1">
-                                    <Link href="portfolio">
-                                        devocra Technologies
-                                        <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                                    </Link>
-                                </h3>
-                            </div>
-                        </SwiperSlide>
+                    >   
+                        {line.map((item,index) => {
+                            return(
+                                <SwiperSlide>
+                                <div className="portfolio__text-slider-single">
+                                    <h3 className="h1">
+                                        <Link href="portfolio">
+                                            devocra Technologies
+                                            <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
+                                        </Link>
+                                    </h3>
+                                </div>
+                            </SwiperSlide>
+                            )
+                        })}
+                        
                     </Swiper>
                 </div>
             </section>

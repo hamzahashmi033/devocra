@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
+import CommonLayout from "@/components/layout/CommonLayout";
 import CmnBanner from "@/components/layout/banner/CmnBanner";
 import HomeTwoModal from "@/components/containers/home-two/HomeTwoModal";
 import Agency from "@/components/containers/home/Agency";
@@ -12,10 +12,11 @@ import HomeTwoSponsor from "@/components/containers/home-two/HomeTwoSponsor";
 import HomeTwoAward from "@/components/containers/home-two/HomeTwoAward";
 import OurMission from "@/components/containers/OurMission";
 import ServiceMain from "@/components/containers/ServiceMain";
+import FaqMain from "@/components/containers/FaqMain";
 
 const AboutUs = () => {
   return (
-    <Layout header={2} footer={1} video={0}>
+    <CommonLayout header={2} footer={1} video={0} title={"About Us - Devocra | Learn About Our Mission & Values"} keywords={"Web Development, App Development, Graphic Design, Marketing, DeVops, Software Quality Ensurance, Artificial Intelligence"} description={"Discover Devocra mission, vision, and values. Learn how we deliver innovative solutions to meet your needs. Explore more about us"}>
       <CmnBanner title="About Us" navigation="About Us" />
       <HomeTwoAward />
       <OurMission />
@@ -23,8 +24,9 @@ const AboutUs = () => {
       <ServiceMain />
       <HomeTestimonial />
       <HomeTwoSponsor />
+      <FaqMain/>
       <CtaTwo />
-    </Layout>
+    </CommonLayout>
   );
 };
 

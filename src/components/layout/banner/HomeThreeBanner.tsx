@@ -8,7 +8,26 @@ import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 import videobg from "public/images/banner/video-bg.webp";
 import dotlarge from "public/images/agency/dot-large.webp";
 import arrow from "public/images/banner/arrow.webp";
-
+const arr = [
+  {
+    title: "Exceptional Web and App Development Solutions", description: "We deliver top-notch web and app development solutions with professional designs, transforming businesses through innovative strategies, cutting-edge technology, and expert management tailored to diverse business needs.", url: "/images/banner/development.webp"
+  },
+  {
+    title: "Outstanding CMS Development Solutions", description: "Discover exceptional open-source CMS platforms designed for efficiency and excellence, offering optimal functionality, scalability, and reliability to empower your business with seamless growth and top-tier performance.", url: "/images/banner/cms.webp"
+  },
+  {
+    title: "Effective marketing solutions", description: "Advanced approaches create value, sustain interest, and guarantee positive outcomes.Innovative methodologies, identifying unique campaigns, perfecting the message strengthens your brand. Find out innovative strategies that are aimed to engage and motivate.", url: '/images/banner/marketing.webp'
+  },
+  {
+    title: "Stunningly Unique Graphic Gesign Concepts", description: "Discover exceptional open-source CMS platforms designed for efficiency and excellence, offering optimal functionality, scalability, and reliability to empower your business with seamless growth and top-tier performance.", url: "/images/banner/graphicDesign.webp"
+  },
+  {
+    title: " Revolutionary DevOps engineering strategies", description: "Improving operational efficiency through tools and techniques in the transforming environment.Creating solid foundations that guarantee secure pipelines of delivery. Valuing up of processes to decrease periods of inactivity and increase capacity", url: "/images/banner/devops.webp"
+  },
+  {
+    title: " Groundbreaking Artificial Intelligence Service", description: "We inspire the world with cutting-edge AI solutions, transforming ideas into business innovations, enhancing productivity through seamless integration, and revolutionizing industries with large-scale innovation.", url: "/images/banner/ai.webp"
+  }
+]
 const HomeThreeBanner = () => {
   const [videoActive, setVideoActive] = useState(false);
   const [activeIndex, setActiveIndex] = useState<number>(0);
@@ -36,147 +55,33 @@ const HomeThreeBanner = () => {
             onSlideChange={handleSlideChange}
             className="banner-three__slider banner-three-alt"
           >
-            <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/development.webp')" }}>
-              <div className="overlay_bg"></div>
-                <div className="content">
-                  <h1>
-                    Exceptional Web and App Development
-                    Solutions
-                  </h1>
-                  <p>We deliver top-notch web and app development solutions with professional designs, transforming businesses through innovative strategies, cutting-edge technology, and expert management tailored to diverse business needs.</p>
-                  <div className="section__content-cta cta">
-                    <div className="arrow-wrapper d-none d-md-block">
-                      <span className="arrow"></span>
+            {arr.map((item, index) => {
+              return (
+                <SwiperSlide key = {index}>
+                  <div className="single_slide" style={{ backgroundImage: `url(${item.url})` }}>
+                    <div className="overlay_bg"></div>
+                    <div className="content">
+                      <h1>{item.title}</h1>
+                      <p>{item.description}</p>
+                      <div className="section__content-cta cta">
+                        <div className="arrow-wrapper d-none d-md-block">
+                          <span className="arrow"></span>
+                        </div>
+                        <Link
+                          href="/contact-us"
+                          className="btn btn--secondary"
+                        >
+                          book now &nbsp;
+                          <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                        </Link>
+                      </div>
                     </div>
-                    <Link
-                      href="/contact-us"
-                      className="btn btn--secondary"
-                    >
-                      book now &nbsp;
-                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                    </Link>
                   </div>
-                </div>
-              </div>
-            </SwiperSlide >
-            <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/cms.webp')" }}>
-              <div className="overlay_bg"></div>
-                <div className="content">
-                  <h2>
-                    Outstanding CMS Development Solutions
-                  </h2>
-                  <p>Discover exceptional open-source CMS platforms designed for efficiency and excellence, offering optimal functionality, scalability, and reliability to empower your business with seamless growth and top-tier performance.</p>
-                  <div className="section__content-cta cta">
-                    <div className="arrow-wrapper d-none d-md-block">
-                      <span className="arrow"></span>
-                    </div>
-                    <Link
-                     href="/contact-us"
-                      className="btn btn--secondary"
-                    >
-                      book now &nbsp;
-                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/marketing.webp')" }}>
-              <div className="overlay_bg"></div>
-                <div className="content">
-                  <h2>
-                    Effective marketing solutions
-                  </h2>
-                  <p>Advanced approaches create value, sustain interest, and guarantee positive outcomes.
-                    Innovative methodologies, identifying unique campaigns, perfecting the message strengthens
-                    your brand. Find out innovative strategies that are aimed to engage and motivate.</p>
-                  <div className="section__content-cta cta">
-                    <div className="arrow-wrapper d-none d-md-block">
-                      <span className="arrow"></span>
-                    </div>
-                    <Link
-                       href="/contact-us"
-                      className="btn btn--secondary"
-                    >
-                      book now &nbsp;
-                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/graphicDesign.webp')" }}>
-              <div className="overlay_bg"></div>
-                <div className="content">
-                  <h2>
-                    Stunningly Unique Graphic Gesign Concepts </h2>
-                  <p>We create captivating ideas through illustration and design, blending art and technology to deliver purposeful, exciting concepts that challenge norms and offer unforgettable experiences.</p>
-                  <div className="section__content-cta cta">
-                    <div className="arrow-wrapper d-none d-md-block">
-                      <span className="arrow"></span>
-                    </div>
-                    <Link
-                     href="/contact-us"
-                      className="btn btn--secondary"
-                    >
-                      book now &nbsp;
-                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/devops.webp')" }}>
-              <div className="overlay_bg"></div>
-                <div className="content">
-                  <h2>
-                    Revolutionary DevOps engineering strategies
-                  </h2>
-                  <p>Improving operational efficiency through tools and techniques in the transforming environment.
-                    Creating solid foundations that guarantee secure pipelines of delivery. Valuing up of processes
-                    to decrease periods of inactivity and increase capacity.</p>
-                  <div className="section__content-cta cta">
-                    <div className="arrow-wrapper d-none d-md-block">
-                      <span className="arrow"></span>
-                    </div>
-                    <Link
-                       href="/contact-us"
-                      className="btn btn--secondary"
-                      
-                    >
-                      book now &nbsp;
-                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/ai.webp')" }}>
-                <div className="content">
-                  <h2>
-                    Groundbreaking Artificial Intelligence Service </h2>
-                  <p>We inspire the world with cutting-edge AI solutions, transforming ideas into business innovations, enhancing productivity through seamless integration, and revolutionizing industries with large-scale innovation. </p>
-                  <div className="section__content-cta cta">
-                    <div className="arrow-wrapper d-none d-md-block">
-                      <span className="arrow"></span>
-                    </div>
-                    <Link
-                       href="/contact-us"
-                      className="btn btn--secondary"
-                    >
-                      book now &nbsp;
-                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
+                </SwiperSlide >
+              )
+            })}
+
+
           </Swiper >
         </div >
         {/* <div className="social justify-content-center justify-content-lg-end">

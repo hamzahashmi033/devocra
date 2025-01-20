@@ -24,14 +24,12 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>User Research</h4>
+                    <h4>Idea Capture</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    By booking a consultation, we make conclusions about the goals you have set, generate ideas, plus filter them into a coherent idea of our cooperation that will meet your expectations.
                   </p>
                 </div>
                 <button
@@ -47,14 +45,12 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>story board</h4>
+                    <h4>Plan Creation</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    Our team maintains clear goals and objectives for a project, which include putting into consideration the activities to be accomplished, the human resources and resources in general to be used, and also the time factor.
                   </p>
                 </div>
                 <button
@@ -70,14 +66,12 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>wireframing</h4>
+                    <h4>Smart Development</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    The constructed solutions are highly reliable and functional, while the coding and quality control used are accurate and detailed.
                   </p>
                 </div>
                 <button
@@ -93,14 +87,12 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Prototyping</h4>
+                    <h4>Continuous Improvement</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We continuously refine the solution approach based on participation results to offer unparalleled results while improving user experiences..
                   </p>
                 </div>
                 <button
@@ -116,14 +108,12 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>usability testing</h4>
+                    <h4>Smooth Deployment</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We deliver a successful implementation, the final product becomes fully integrated into your enterprise and is market ready.
                   </p>
                 </div>
                 <button
@@ -139,14 +129,12 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>UI Design</h4>
+                    <h4>Maintenance</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    At Devocra, software maintenance guarantees productivity, protection and flexibility by providing constant technical updates, new features addition, solution of bugs, security checks and improvements of performance. Issues are solved during its active monitoring, and user support helps ensure that the software is up to date with the requirements and technologies of the present.
                   </p>
                 </div>
                 <button

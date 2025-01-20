@@ -1,12 +1,12 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
+import CommonLayout from "@/components/layout/CommonLayout";
 import CmnBanner from "@/components/layout/banner/CmnBanner";
 import ProjectDetailsMain from "@/components/containers/project/ProjectDetailsMain";
 import UxProcess from "@/components/containers/service-details/UxProcess";
 
 const ProjectDetails = () => {
   return (
-    <Layout header={2} footer={5} video={0}>
+    <CommonLayout header={2} footer={5} video={0} title={"aaa"} keywords={"abc"} description={"abcd"}>
       <CmnBanner
         title="Brand Identity"
         navigation="Brand Identity"
@@ -15,7 +15,7 @@ const ProjectDetails = () => {
       />
       <ProjectDetailsMain />
       <UxProcess />
-    </Layout>
+    </CommonLayout>
   );
 };
 
