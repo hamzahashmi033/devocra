@@ -130,11 +130,11 @@ const Footer = () => {
                       </button>
                     </div>
                   </form>
-                  <div className='row'>
-                    <div className='col-8'>
+                  <div className='row '>
+                    <div className='col-6 '>
                       <TrustpilotWidget />
                     </div>
-                    <div className='col-4'>
+                    <div className='col-5 '>
                       <ClutchWidget />
                     </div>
                   </div>

@@ -28,7 +28,8 @@ type LayoutProps = {
   video?: React.ReactNode;
   title?: React.ReactNode;
   description?: any;
-  keywords?: any
+  keywords?: any;
+  cononical?: any;
 };
 
 const CommonLayout = ({
@@ -40,7 +41,8 @@ const CommonLayout = ({
   video,
   title,
   description,
-  keywords
+  keywords,
+  cononical
 }: LayoutProps) => {
 
   // tilt effect
@@ -192,12 +194,12 @@ const CommonLayout = ({
           name="description"
           content={description}
         />
-
+        <link rel="canonical" href={cononical} />
         <meta name="robots" content="index, follow" />
-x`x`
-        <meta name="author" content="Devocra" />
 
-       
+        <meta name="author" content="Devocra" />
+        <meta name="publisher" content="Devocra" />
+
       </Head>
       <div className={combinedClassName}>
         {header === 1 && (

@@ -24,7 +24,7 @@ const desc5 = [
 ]
 const ArtificialIntelligence = () => {
     return (
-        <CommonLayout header={2} footer={1} video={false} title={"aaa"} keywords={"abc"} description={"abcd"}>
+        <CommonLayout header={2} footer={1} video={false} title={"aaa"} keywords={"abc"} description={"abcd"} cononical={"https://devocra.com/artificial-intelligence"}>
             <ServiceDetailsBanner title={"Artificial Intelligence"} breadcrumb={"Artificial Intelligence"} />
             <ServiceDetailsMain mainHead={"Artificial  Intelligence at Devocra"} mainDesc={mainDesc} head1={"Generative AI"} desc1={desc1}
                 head2={"AI Model Fine-Tuning"} desc2={desc2}
