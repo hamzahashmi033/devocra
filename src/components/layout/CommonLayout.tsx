@@ -28,7 +28,7 @@ type LayoutProps = {
   video?: React.ReactNode;
   title?: React.ReactNode;
   description?: any;
-  keyword?: any
+  keywords?: any
 };
 
 const CommonLayout = ({
@@ -40,7 +40,7 @@ const CommonLayout = ({
   video,
   title,
   description,
-  keyword
+  keywords
 }: LayoutProps) => {
 
   // tilt effect
@@ -187,7 +187,7 @@ const CommonLayout = ({
           type="image/x-icon"
         />
         <title>{title}</title>
-        <meta name="keywords" content={keyword} />
+        <meta name="keywords" content={keywords} />
         <meta
           name="description"
           content={description}
