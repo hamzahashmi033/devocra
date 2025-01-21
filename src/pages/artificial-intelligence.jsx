@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
+import CommonLayout from "@/components/layout/CommonLayout";
 import ServiceDetailsMain from "@/components/containers/service-details/ServiceDetailsMain";
 import ServiceDetailsBanner from "@/components/layout/banner/ServiceDetailsBanner";
 import UxProcess from "@/components/containers/service-details/UxProcess";
@@ -24,7 +24,7 @@ const desc5 = [
 ]
 const ArtificialIntelligence = () => {
     return (
-        <Layout header={2} footer={1} video={false}>
+        <CommonLayout header={2} footer={1} video={false} title={"aaa"} keywords={"abc"} description={"abcd"}>
             <ServiceDetailsBanner title={"Artificial Intelligence"} breadcrumb={"Artificial Intelligence"} />
             <ServiceDetailsMain mainHead={"Artificial  Intelligence at Devocra"} mainDesc={mainDesc} head1={"Generative AI"} desc1={desc1}
                 head2={"AI Model Fine-Tuning"} desc2={desc2}
@@ -34,7 +34,7 @@ const ArtificialIntelligence = () => {
             />
             <UxProcess />
             <CtaTwo />
-        </Layout>
+        </CommonLayout>
     )
 }
 export default ArtificialIntelligence
