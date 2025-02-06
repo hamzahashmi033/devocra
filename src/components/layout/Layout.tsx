@@ -201,10 +201,13 @@ video animation, and erp software development services."
         <meta name="google-site-verification" content="onKEopabAikDxxcFh6B25lOl38KuywWKbctb10NBzuA" />
 
         <meta name="publisher" content="Devocra" />
+        
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTTFHCG2E1"></script>
         <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
         <script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script>
       </Head>
+      
+      
       <div className={combinedClassName}>
         {header === 1 && (
           <Header
