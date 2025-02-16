@@ -5,12 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
-import ai from "public/images/blog/ai.webp"
-import cms from "public/images/blog/cms.webp"
-import devops from "public/images/blog/devops.webp"
-import graphicDesign from "public/images/blog/graphic_design.webp"
-import seo from "public/images/blog/seo.webp"
-import development from "public/images/blog/development.webp"
+import ai from "public/images/blog/ai.webp";
+import cms from "public/images/blog/cms.webp";
+import devops from "public/images/blog/devops/devops1BlogHomeBanner.png";
+import graphicDesign from "public/images/blog/graphic_design.webp";
+import seo from "public/images/blog/seo.webp";
+import development from "public/images/blog/development.webp";
 const HomeTwoBlog = () => {
   return (
     <section className="section blog blog-two">
@@ -91,7 +91,8 @@ const HomeTwoBlog = () => {
               <div className="blog__single-content">
                 <h3>
                   <Link href="/">
-                    Unleashing the Power of AI with Devocra: Transforming Innovation and Technology
+                    Unleashing the Power of AI with Devocra: Transforming
+                    Innovation and Technology
                   </Link>
                 </h3>
                 <div className="blog__single-meta">
@@ -114,7 +115,8 @@ const HomeTwoBlog = () => {
               <div className="blog__single-content">
                 <h3>
                   <Link href="/">
-                    Explore the Power of CMS Solutions with Devocra: Simplify, Manage, and Grow Your Digital Presence
+                    Explore the Power of CMS Solutions with Devocra: Simplify,
+                    Manage, and Grow Your Digital Presence
                   </Link>
                 </h3>
                 <div className="blog__single-meta">
@@ -130,18 +132,18 @@ const HomeTwoBlog = () => {
           <SwiperSlide>
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
-                <Link href="/">
+                <Link href="/devops-category/unlock-the-future-of-software-quality-with-devOps-and-devSecOps">
                   <Image src={devops} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h3>
-                  <Link href="/">
-                    DevOps Excellence with Devocra: Transforming Software Development and Operations
+                  <Link href="/devops-category/unlock-the-future-of-software-quality-with-devOps-and-devSecOps">
+                    Top 23 Tools for Continuous Testing & DevOps Success
                   </Link>
                 </h3>
                 <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
+                  <Link href="/devops-blogs" className="sub-title">
                     Devops
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
@@ -160,7 +162,8 @@ const HomeTwoBlog = () => {
               <div className="blog__single-content">
                 <h3>
                   <Link href="/">
-                    Creative Graphic Designs by Devocra: Transforming Ideas into Visual Masterpieces
+                    Creative Graphic Designs by Devocra: Transforming Ideas into
+                    Visual Masterpieces
                   </Link>
                 </h3>
                 <div className="blog__single-meta">
@@ -199,27 +202,26 @@ const HomeTwoBlog = () => {
           <SwiperSlide>
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
-                <Link href="/">
+                <Link href="/website-category/website-development-services-crafting-digital-experiences-that-drive-business-growth">
                   <Image src={development} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h3>
-                  <Link href="/">
-                    Building the FutureDevocra's Vision for Transformative Development
+                  <Link href="/website-category/website-development-services-crafting-digital-experiences-that-drive-business-growth">
+                  Website Development Services Crafting Digital Experiences for Business Growth
                   </Link>
                 </h3>
                 <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    Development
+                  <Link href="/web-blogs" className="sub-title">
+                    Website Development
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
-                  <p>MARCH 23, 2023</p>
+                  <p>february 15, 2025</p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
-
         </Swiper>
       </div>
     </section>

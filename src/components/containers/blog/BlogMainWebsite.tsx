@@ -2,17 +2,10 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
-import eight from "public/images/news/eight.png";
-import devops1 from "public/images/blog/devops/devops1InnerBannerMain.png";
-import website1 from "public/images/blog/website/website1InnerBannerMain.jpeg";
-import nine from "public/images/news/nine.png";
-import ten from "public/images/news/ten.png";
-import eleven from "public/images/news/eleven.png";
-import twelve from "public/images/news/twelve.png";
-import thirteen from "public/images/news/thirteen.png";
-import fourteen from "public/images/news/fourteen.png";
 
-const BlogMain = () => {
+import website1 from "public/images/blog/website/website1InnerBannerMain.jpeg";
+
+const BlogMainWebsite = () => {
   const [videoActive, setVideoActive] = useState(false);
   return (
     <>
@@ -24,51 +17,11 @@ const BlogMain = () => {
                 <div className="blog-main__single fade-top">
                   <div className="thumb">
                     <div className="thumb-link ">
-                      <Link href="blog-single">
-                        <Image src={devops1} alt="Image" />
-                      </Link>
-                    </div>
-                    <div className="meta">
-                      <div className="meta__left">
-                        <p>
-                          <strong>Written by: </strong>
-                          Balaj Hussain
-                        </p>
-                        <span></span>
-                        <p>08/02/2025</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="content ">
-                    <h4 className="h4">
-                      <Link href="/devops-category/unlock-the-future-of-software-quality-with-devOps-and-devSecOps">
-                        Top 23 Essential Tools for Continuous Testing & DevOps
-                        Boost Your Software Quality and Efficiency
-                      </Link>
-                    </h4>
-                    <p>
-                      This article focuses on the testing phase at devocra Agile
-                      and DevOps,highlighting benefits like faster time to
-                      market, enhanced quality assurance, and cost savings. It
-                      also delves into the current tools and phenomenon that
-                      define DevOps and software delivery in 2025.
-                    </p>
-                    <div className="cta">
-                      <Link href="/devops-category/unlock-the-future-of-software-quality-with-devOps-and-devSecOps">
-                        <i className="fa-sharp fa-regular fa-arrow-right"></i>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="blog-main__single fade-top">
-                  <div className="thumb">
-                    <div className="thumb-link ">
-                      <Link href="blog-single">
+                      <Link href="/website-category/website-development-services-crafting-digital-experiences-that-drive-business-growth">
                         <Image
                           src={website1}
-                          alt="Discover expert Web development services including Python, Java, C++, 
-                          and DevOps to enhance your digital projects and development."
-                          title="Explore Cutting-Edge website development  Solutions"
+                          alt="Explore Cutting-Edge website development Solutions"
+                          title="Explore Cutting-Edge website development Solutions"
                         />
                       </Link>
                     </div>
@@ -85,7 +38,7 @@ const BlogMain = () => {
                   </div>
                   <div className="content ">
                     <h4 className="h4">
-                      <Link href="/website-category/website-development-services-crafting-digital-experiences-that-drive-business-growth">
+                      <Link href="blog-single">
                         Website Development Services Crafting Digital
                         Experiences That Drive Business Growth
                       </Link>
@@ -191,4 +144,4 @@ const BlogMain = () => {
   );
 };
 
-export default BlogMain;
+export default BlogMainWebsite;

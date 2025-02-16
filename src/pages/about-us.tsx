@@ -16,7 +16,19 @@ import FaqMain from "@/components/containers/FaqMain";
 
 const AboutUs = () => {
   return (
-    <CommonLayout header={2} footer={1} video={0} title={"About Us - Devocra | Learn About Our Mission & Values"} keywords={"Web Development, App Development, Graphic Design, Marketing, DeVops, Software Quality Ensurance, Artificial Intelligence"} description={"Discover Devocra mission, vision, and values. Learn how we deliver innovative solutions to meet your needs. Explore more about us"} cononical={"https://devocra.com/about-us"}>
+    <CommonLayout
+      header={2}
+      footer={1}
+      video={0}
+      title={"About Us - Devocra | Learn About Our Mission & Values"}
+      keywords={
+        "Web Development, App Development, Graphic Design, Marketing, DeVops, Software Quality Ensurance, Artificial Intelligence"
+      }
+      description={
+        "Discover Devocra mission, vision, and values. Learn how we deliver innovative solutions to meet your needs. Explore more about us"
+      }
+      cononical={"https://devocra.com/about-us"}
+    >
       <CmnBanner title="About Us" navigation="About Us" />
       <HomeTwoAward />
       <OurMission />
@@ -24,7 +36,7 @@ const AboutUs = () => {
       <ServiceMain />
       <HomeTestimonial />
       <HomeTwoSponsor />
-      <FaqMain/>
+      <FaqMain />
       <CtaTwo />
     </CommonLayout>
   );

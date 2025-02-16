@@ -111,11 +111,7 @@ const BlogDetailsMain = () => {
               </div>
               <div className="bd-tags">
                 <div className="tags-left">
-                  <p>Tags:</p>
-                  <div className="tags-content">
-                    <Link href="blog">Nature</Link>
-                    <Link href="blog">Health</Link>
-                  </div>
+                  
                 </div>
                 <div className="tags-right">
                   <p>Share:</p>
@@ -144,119 +140,10 @@ const BlogDetailsMain = () => {
                 </div>
               </div>
             </div>
-            <div className="blog-details__pagination">
-              <div className="row gaper">
-                <div className="col-md-6">
-                  <div className="single">
-                    <Link href="blog">
-                      <i className="fa-solid fa-arrow-left-long"></i>
-                      Previous Blog
-                    </Link>
-                    <div className="latest-single">
-                      <div className="latest-thumb">
-                        <Link href="blog-single">
-                          <Image src={eleven} alt="Image" />
-                        </Link>
-                      </div>
-                      <div className="latest-content">
-                        <p>10/01/2023</p>
-                        <p>
-                          <Link href="blog-single">
-                            Guide dog shortage: The blind peo ple who train
-                            their own guide
-                          </Link>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="single single--alt">
-                    <Link href="blog">
-                      Next Blog
-                      <i className="fa-solid fa-arrow-right-long"></i>
-                    </Link>
-                    <div className="latest-single">
-                      <div className="latest-thumb">
-                        <Link href="blog-single">
-                          <Image src={ten} alt="Image" />
-                        </Link>
-                      </div>
-                      <div className="latest-content">
-                        <p>10/01/2023</p>
-                        <p>
-                          <Link href="blog-single">
-                            Guide dog shortage: The blind peo ple who train
-                            their own guide
-                          </Link>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="section pb-0 comment-form fade-top">
-                <div className="section__header">
-                  <h2 className="h2 text-start">Leave a comment</h2>
-                </div>
-                <form action="#" method="post">
-                  <div className="form-group-wrapper">
-                    <div className="form-group-single">
-                      <input
-                        type="text"
-                        name="comment-name"
-                        id="commentName"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div className="form-group-single">
-                      <input
-                        type="email"
-                        name="comment-email"
-                        id="commentemail"
-                        placeholder="Email"
-                      />
-                    </div>
-                  </div>
-                  <div className="form-group-single">
-                    <textarea
-                      name="comment-message"
-                      id="commentMessage"
-                      placeholder="Write Comment..."
-                    ></textarea>
-                  </div>
-                  <div className="cta__group">
-                    <button type="submit" className="btn btn--ocotonary">
-                      post comment
-                      <i className="fa-solid fa-arrow-right-long"></i>
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
+            
           </div>
           <div className="col-12 col-xl-4">
             <div className="blog-main__sidebar">
-              <div className="widget ">
-                <div className="widget__head">
-                  <h5 className="h5">Search</h5>
-                </div>
-                <div className="widget-search">
-                  <form action="#" method="post">
-                    <div className="form-group-input">
-                      <input
-                        type="search"
-                        name="blog-search"
-                        id="blogSearch"
-                        placeholder="Search here. . ."
-                      />
-                      <button type="submit">
-                        <i className="fa-solid fa-magnifying-glass"></i>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
               <div className="widget ">
                 <div className="widget__head">
                   <h5 className="h5">Categories</h5>
@@ -264,25 +151,25 @@ const BlogDetailsMain = () => {
                 <div className="widget__list">
                   <ul>
                     <li>
-                      <Link href="blog">Business</Link>
+                      <Link href="blog">Web Development</Link>
                     </li>
                     <li>
-                      <Link href="blog">Job Market</Link>
+                      <Link href="blog">App Development</Link>
+                    </li>
+                    <li>
+                      <Link href="blog">DevOps</Link>
+                    </li>
+                    <li>
+                      <Link href="blog">CMS Development</Link>
                     </li>
                     <li>
                       <Link href="blog">Marketing</Link>
                     </li>
                     <li>
-                      <Link href="blog">News</Link>
+                      <Link href="blog">Graphic Designs</Link>
                     </li>
                     <li>
-                      <Link href="blog">Social Media</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">Trends</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">Writing</Link>
+                      <Link href="blog">Video Animation</Link>
                     </li>
                   </ul>
                 </div>
@@ -357,47 +244,6 @@ const BlogDetailsMain = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="widget">
-                <div className="widget__head">
-                  <h5 className="h5">Tags</h5>
-                </div>
-                <div className="widget__tags">
-                  <ul>
-                    <li>
-                      <Link href="blog">nature</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">health</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">galaxy</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">creative</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">art</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">business</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">space</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">biology</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">environemnt</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="widget widget-big ">
-                <Link href="blog-single">
-                  <Image src={fourteen} alt="Image" />
-                </Link>
               </div>
             </div>
           </div>

@@ -1,7 +1,10 @@
 import React from "react";
 import Link from "next/link";
-
-const BlogSingleBanner = () => {
+type LayoutProps ={
+  title?:any,
+  breadcrumb?:any
+}
+const BlogSingleBanner = ({title,breadcrumb}:LayoutProps) => {
   return (
     <section
       className="cmn-banner bg-img"
@@ -12,9 +15,9 @@ const BlogSingleBanner = () => {
           <div className="col-12">
             <div className="text-center text-lg-start">
               <h2 className="title title-anim">
-                We denounce with righteous indignation
+                {title}
               </h2>
-              <nav aria-label="breadcrumb">
+              <nav aria-label="breadcrumb " className="d-none d-xxl-block">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
                     <Link href="/">
@@ -22,8 +25,14 @@ const BlogSingleBanner = () => {
                       Home
                     </Link>
                   </li>
+                  <li className="breadcrumb-item">
+                    <Link href="/">
+                      <i className="fa-solid fa-house"></i>
+                      Blogs
+                    </Link>
+                  </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    Blog Details
+                    {title}
                   </li>
                 </ol>
               </nav>

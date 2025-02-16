@@ -42,9 +42,8 @@ const CommonLayout = ({
   title,
   description,
   keywords,
-  cononical
+  cononical,
 }: LayoutProps) => {
-
   // tilt effect
   useEffect(() => {
     const tiltElements = document.querySelectorAll(".topy-tilt");
@@ -81,8 +80,9 @@ const CommonLayout = ({
 
   const combinedClasses = `${additionalClasses} my-app`;
 
-  const combinedClassName = `${combinedClasses}${openNav ? " body-active" : ""
-    } ${classNameForCurrentPath}`;
+  const combinedClassName = `${combinedClasses}${
+    openNav ? " body-active" : ""
+  } ${classNameForCurrentPath}`;
 
   // fade animation
   useEffect(() => {
@@ -180,26 +180,26 @@ const CommonLayout = ({
   return (
     <Fragment>
       <Head>
-
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="shortcut icon"
-          href="/images/fav.png"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/images/fav.png" type="image/x-icon" />
         <title>{title}</title>
         <meta name="keywords" content={keywords} />
-        <meta
-          name="description"
-          content={description}
-        />
+        <meta name="description" content={description} />
         <link rel="canonical" href={cononical} />
         <meta name="robots" content="index, follow" />
 
         <meta name="author" content="Devocra" />
         <meta name="publisher" content="Devocra" />
-
+        <script
+          type="text/javascript"
+          src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+          async
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://widget.clutch.co/static/js/widget.js"
+        ></script>
       </Head>
       <div className={combinedClassName}>
         {header === 1 && (
@@ -254,4 +254,4 @@ const CommonLayout = ({
   );
 };
 
-export default CommonLayout
+export default CommonLayout;

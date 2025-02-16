@@ -5,7 +5,16 @@ import BlogMain from "@/components/containers/blog/BlogMain";
 
 const BlogPage = () => {
   return (
-    <CommonLayout header={2} footer={1} video={0} title={"abc"} description={"abc"} cononical={"https://devocra.com/blog"}>
+    <CommonLayout
+      header={2}
+      footer={1}
+      video={0}
+      title={"Blog Posts | Devocra - Software & Creative Agency"}
+      description={
+        "Explore insightful articles on technology, design, and innovation at Devocra. Stay updated with expert insights, industry trends, and creative solutions from our software and creative agency."
+      }
+      cononical={"https://devocra.com/blog"}
+    >
       <CmnBanner title="Blogs" navigation="Blogs" />
       <BlogMain />
     </CommonLayout>

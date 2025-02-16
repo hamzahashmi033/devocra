@@ -67,7 +67,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className=""
                         >
-                          <Link href="about-us">ABOUT US</Link>
+                          <Link href="/about-us">ABOUT US</Link>
                         </button>
 
                       </li>
@@ -76,7 +76,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          <Link href="our-services">Services</Link>
+                          <Link href="/our-services">Services</Link>
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
@@ -110,7 +110,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className=""
                         >
-                          <Link href="portfolio">PORTFOLIO</Link>
+                          <Link href="/portfolio">PORTFOLIO</Link>
                         </button>
 
                       </li>
@@ -119,7 +119,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className=""
                         >
-                          <Link href="contact-us">CONTACT US</Link>
+                          <Link href="/contact-us">CONTACT US</Link>
                         </button>
 
                       </li>
@@ -128,7 +128,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className=""
                         >
-                          <Link href="blog">BLOGS</Link>
+                          <Link href="/blog">BLOGS</Link>
                         </button>
 
                       </li>
@@ -136,7 +136,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__options">
                     <div className="navbar__mobile-options d-none d-sm-flex">
-                      <Link href="contact-us" className="btn btn--secondary">
+                      <Link href="/contact-us" className="btn btn--secondary">
                         Let&apos;s Talk
                       </Link>
                     </div>
