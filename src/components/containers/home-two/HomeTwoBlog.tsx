@@ -9,7 +9,7 @@ import ai from "public/images/blog/ai.webp";
 import cms from "public/images/blog/cms.webp";
 import devops from "public/images/blog/devops/devops1BlogHomeBanner.png";
 import graphicDesign from "public/images/blog/graphic_design.webp";
-import seo from "public/images/blog/seo.webp";
+import marketing1 from "public/images/blog/marketing/marketing1InnerBannerMain.png";
 import development from "public/images/blog/development.webp";
 const HomeTwoBlog = () => {
   return (
@@ -179,18 +179,18 @@ const HomeTwoBlog = () => {
           <SwiperSlide>
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
-                <Link href="/">
-                  <Image src={seo} alt="Image" />
+                <Link href="/marketing-category/seo-vs-paid-search-understanding-the-best-strategy-for-your-business">
+                  <Image src={marketing1} alt="Image" />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h3>
-                  <Link href="/">
-                    Boost Your Online Presence with SEO Strategies from Devocra
+                  <Link href="/marketing-category/seo-vs-paid-search-understanding-the-best-strategy-for-your-business">
+                  SEO vs Paid Search Understanding the Best Strategy for Your Business
                   </Link>
                 </h3>
                 <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
+                  <Link href="marketing-blogs" className="sub-title">
                     Marketing
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>

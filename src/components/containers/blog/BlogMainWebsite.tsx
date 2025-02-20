@@ -104,7 +104,7 @@ const BlogMainWebsite = () => {
                         <Link href="blog">CMS Development</Link>
                       </li>
                       <li>
-                        <Link href="blog">Marketing</Link>
+                        <Link href="/marketing-blogs">Marketing</Link>
                       </li>
                       <li>
                         <Link href="blog">Graphic Designs</Link>
