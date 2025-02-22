@@ -29,7 +29,7 @@ const BlogMainMarketing = () => {
                                                     Balaj Hussain
                                                 </p>
                                                 <span></span>
-                                                <p>08/02/2025</p>
+                                                <p>20/02/2025</p>
                                             </div>
                                         </div>
                                     </div>
