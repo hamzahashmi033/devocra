@@ -31,8 +31,8 @@ const BlogSingleBanner = ({title,breadcrumb}:LayoutProps) => {
                       Blogs
                     </Link>
                   </li>
-                  <li className="breadcrumb-item active" aria-current="page">
-                    {title}
+                  <li className="breadcrumb-item active " aria-current="page">
+                    {breadcrumb}
                   </li>
                 </ol>
               </nav>

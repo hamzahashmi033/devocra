@@ -5,6 +5,8 @@ import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 import eight from "public/images/news/eight.png";
 import devops1 from "public/images/blog/devops/devops1InnerBannerMain.png";
 import website1 from "public/images/blog/website/website1InnerBannerMain.jpeg";
+import marketing1 from "public/images/blog/marketing/marketing1InnerBannerMain.png";
+import app1 from "public/images/blog/app/app1InnerBannerMain.jpg";
 import nine from "public/images/news/nine.png";
 import ten from "public/images/news/ten.png";
 import eleven from "public/images/news/eleven.png";
@@ -108,6 +110,84 @@ const BlogMain = () => {
                   </div>
                 </div>
 
+                <div className="blog-main__single fade-top">
+                  <div className="thumb">
+                    <div className="thumb-link ">
+                      <Link href="blog-single">
+                        <Image
+                          src={marketing1}
+                          alt="SEO vs PPC – A Visual Comparison of Search Strategies,SEO vs PPC: A visual comparison of organic growth vs paid ads, highlighting key differences in digital marketing strategies."
+                          title="SEO vs PPC – A Visual Comparison of Search Strategies,SEO vs PPC: A visual comparison of organic growth vs paid ads, highlighting key differences in digital marketing strategies"
+                        />
+                      </Link>
+                    </div>
+                    <div className="meta">
+                      <div className="meta__left">
+                        <p>
+                          <strong>Written by: </strong>
+                          Balaj Hussain
+                        </p>
+                        <span></span>
+                        <p>20/02/2025</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content ">
+                    <h4 className="h4">
+                      <Link href="/marketing-category/seo-vs-paid-search-understanding-the-best-strategy-for-your-business">
+                        SEO vs Paid Search Understanding the Best Strategy for Your Business
+                      </Link>
+                    </h4>
+                    <p>
+                      This article focuses on Traditional businesses struggle to determine which approach between SEO and Paid Search will work best for them in digital marketing. Businesses need to determine between these two options according to their specific objectives and financial constraints as well as implementation schedule. The article delivers a thorough analysis of PPC and SEO marketing which defines the distinction between organic and paid search visibility together with their respective impact on internet exposure.
+                    </p>
+                    <div className="cta">
+                      <Link href="/marketing-category/seo-vs-paid-search-understanding-the-best-strategy-for-your-business">
+                        <i className="fa-sharp fa-regular fa-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="blog-main__single fade-top">
+                  <div className="thumb">
+                    <div className="thumb-link ">
+                      <Link href="blog-single">
+                        <Image
+                          src={app1}
+                          alt="A programmer working at a desk with multiple screens, including a laptop, a monitor, and a smartphone, all displaying lines of code. The individual is holding the smartphone in one hand and typing on the laptop with the other. The workspace has a clean, modern setup with a keyboard and other office essentials in the background."
+                          title="A programmer working at a desk with multiple screens, including a laptop, a monitor, and a smartphone, all displaying lines of code. The individual is holding the smartphone in one hand and typing on the laptop with the other. The workspace has a clean, modern setup with a keyboard and other office essentials in the background."
+                        />
+                      </Link>
+                    </div>
+                    <div className="meta">
+                      <div className="meta__left">
+                        <p>
+                          <strong>Written by: </strong>
+                          Balaj Hussain
+                        </p>
+                        <span></span>
+                        <p>23/02/2025</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content ">
+                    <h4 className="h4">
+                      <Link href="/app-category/how-does-converting-an-app-to-react-native-improve-performance">
+                        How Does Converting an App to React Native Improve Performance
+                      </Link>
+                    </h4>
+                    <p>
+                      This article focuses on the guide demonstrates the process to convert mobile apps between Android and iOS to React Native format through runtime migration methods alongside advantages and technical obstacles. The development process for cross-platform apps using React Native becomes more simplified through Devocra to deliver both performance excellence and efficient development capabilities.
+                    </p>
+                    <div className="cta">
+                      <Link href="/app-category/how-does-converting-an-app-to-react-native-improve-performance">
+                        <i className="fa-sharp fa-regular fa-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="pagination-wrapper">
                   <ul className="pagination">
                     <li>
@@ -142,7 +222,7 @@ const BlogMain = () => {
                         <Link href="/web-blogs">Web Development</Link>
                       </li>
                       <li>
-                        <Link href="blog">App Development</Link>
+                        <Link href="/app-blogs">App Development</Link>
                       </li>
                       <li>
                         <Link href="/devops-blogs">DevOps</Link>
@@ -151,7 +231,7 @@ const BlogMain = () => {
                         <Link href="blog">CMS Development</Link>
                       </li>
                       <li>
-                        <Link href="blog">Marketing</Link>
+                        <Link href="/marketing-blogs">Marketing</Link>
                       </li>
                       <li>
                         <Link href="blog">Graphic Designs</Link>

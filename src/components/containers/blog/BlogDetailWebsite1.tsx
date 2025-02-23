@@ -726,7 +726,7 @@ const BlogDetailWebsite1 = () => {
                       <Link href="/web-blogs">Web Development</Link>
                     </li>
                     <li>
-                      <Link href="blog">App Development</Link>
+                      <Link href="/app-blogs">App Development</Link>
                     </li>
                     <li>
                       <Link href="/devops-blogs">DevOps</Link>
@@ -735,7 +735,7 @@ const BlogDetailWebsite1 = () => {
                       <Link href="blog">CMS Development</Link>
                     </li>
                     <li>
-                      <Link href="blog">Marketing</Link>
+                      <Link href="/marketing-blogs">Marketing</Link>
                     </li>
                     <li>
                       <Link href="blog">Graphic Designs</Link>
