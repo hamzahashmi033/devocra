@@ -3,10 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 
-import poster from "public/images/blog/app/app1InnerBannerMain.jpg";
+import poster from "public/images/blog/cms/cms1InnerBannerMain.png";
 
 
-const BlogMainApp = () => {
+const BlogMainCms = () => {
     const [videoActive, setVideoActive] = useState(false);
     return (
         <>
@@ -18,8 +18,8 @@ const BlogMainApp = () => {
                                 <div className="blog-main__single fade-top">
                                     <div className="thumb">
                                         <div className="thumb-link ">
-                                            <Link href="/app-category/how-does-converting-an-app-to-react-native-improve-performance">
-                                                <Image src={poster} alt="A programmer working at a desk with multiple screens, including a laptop, a monitor, and a smartphone, all displaying lines of code. The individual is holding the smartphone in one hand and typing on the laptop with the other. The workspace has a clean, modern setup with a keyboard and other office essentials in the background." title="A programmer working at a desk with multiple screens, including a laptop, a monitor, and a smartphone, all displaying lines of code. The individual is holding the smartphone in one hand and typing on the laptop with the other. The workspace has a clean, modern setup with a keyboard and other office essentials in the background." />
+                                            <Link href="/cms-category/how-to-choose-the-right-cms-development-services-for-your-business-in-2025">
+                                                <Image src={poster} alt="A robotic hand reaching towards a glowing light bulb with CMS written on it, symbolizing innovation in content management systems." title="A robotic hand reaching towards a glowing light bulb with CMS written on it, symbolizing innovation in content management systems." />
                                             </Link>
                                         </div>
                                         <div className="meta">
@@ -29,21 +29,21 @@ const BlogMainApp = () => {
                                                     Balaj Hussain
                                                 </p>
                                                 <span></span>
-                                                <p>23/02/2025</p>
+                                                <p>27/02/2025</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="content ">
                                         <h4 className="h4">
                                             <Link href="blog-single">
-                                                How Does Converting an App to React Native Improve Performance?
+                                            How to Choose the Right CMS Development Services for Your Business in 2025
                                             </Link>
                                         </h4>
                                         <p>
-                                            This article focuses on the guide demonstrates the process to convert mobile apps between Android and iOS to React Native format through runtime migration methods alongside advantages and technical obstacles. The development process for cross-platform apps using React Native becomes more simplified through Devocra to deliver both performance excellence and efficient development capabilities.
+                                            This article is about CMS offers scalable, secure, and customizable content management solutions for businesses. Features include SEO optimization, performance speed, third-party integrations, security, and user-friendly design. It supports e-commerce, corporate sites, and enterprises with reliable support, cost-effective plans, and seamless content management.
                                         </p>
                                         <div className="cta">
-                                            <Link href="/app-category/how-does-converting-an-app-to-react-native-improve-performance">
+                                            <Link href="/cms-category/how-to-choose-the-right-cms-development-services-for-your-business-in-2025">
                                                 <i className="fa-sharp fa-regular fa-arrow-right"></i>
                                             </Link>
                                         </div>
@@ -133,4 +133,4 @@ const BlogMainApp = () => {
     );
 };
 
-export default BlogMainApp;
+export default BlogMainCms;

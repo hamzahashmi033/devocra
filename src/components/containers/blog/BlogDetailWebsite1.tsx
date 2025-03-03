@@ -684,7 +684,7 @@ const BlogDetailWebsite1 = () => {
                 </div>
               </div>
 
-              <div className="bd-tags">
+              {/* <div className="bd-tags">
                 <div className="tags-left"></div>
                 <div className="tags-right">
                   <p>Share:</p>
@@ -711,41 +711,7 @@ const BlogDetailWebsite1 = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-xl-4">
-            <div className="blog-main__sidebar">
-              <div className="widget ">
-                <div className="widget__head">
-                  <h5 className="h5">Categories</h5>
-                </div>
-                <div className="widget__list">
-                  <ul>
-                    <li>
-                      <Link href="/web-blogs">Web Development</Link>
-                    </li>
-                    <li>
-                      <Link href="/app-blogs">App Development</Link>
-                    </li>
-                    <li>
-                      <Link href="/devops-blogs">DevOps</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">CMS Development</Link>
-                    </li>
-                    <li>
-                      <Link href="/marketing-blogs">Marketing</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">Graphic Designs</Link>
-                    </li>
-                    <li>
-                      <Link href="blog">Video Animation</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              </div> */}
               <div className="widget">
                 <div className="widget__head">
                   <h5 className="h5">Recent Posts</h5>
@@ -767,10 +733,67 @@ const BlogDetailWebsite1 = () => {
                       </p>
                     </div>
                   </div>
-                  
-                  
                 </div>
               </div>
+              
+            </div>
+          </div>
+          <div className="col-12 col-xl-4">
+            <div className="blog-main__sidebar">
+              <div className="widget ">
+                <div className="widget__head">
+                  <h5 className="h5">Categories</h5>
+                </div>
+                <div className="widget__list">
+                  <ul>
+                    <li>
+                      <Link href="/web-blogs">Web Development</Link>
+                    </li>
+                    <li>
+                      <Link href="/app-blogs">App Development</Link>
+                    </li>
+                    <li>
+                      <Link href="/devops-blogs">DevOps</Link>
+                    </li>
+                    <li>
+                      <Link href="/cms-blogs">CMS Development</Link>
+                    </li>
+                    <li>
+                      <Link href="/marketing-blogs">Marketing</Link>
+                    </li>
+                    <li>
+                      <Link href="/graphic-blogs">Graphic Designs</Link>
+                    </li>
+                    <li>
+                      <Link href="blog">Video Animation</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* <div className="widget">
+                <div className="widget__head">
+                  <h5 className="h5">Recent Posts</h5>
+                </div>
+                <div className="widget__latest">
+                  <div className="latest-single ">
+                    <div className="latest-thumb">
+                      <Link href="/devops-category/unlock-the-future-of-software-quality-with-devOps-and-devSecOps">
+                        <Image src={Recent1} alt="Image" />
+                      </Link>
+                    </div>
+                    <div className="latest-content">
+                      <p>08/02/2025</p>
+                      <p>
+                        <Link href="/devops-category/unlock-the-future-of-software-quality-with-devOps-and-devSecOps">
+                          Top 23 Essential Tools for Continuous Testing & DevOps
+                          Boost Your Software Quality and Efficiency
+                        </Link>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+               </div> */}
+
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
 import ai from "public/images/blog/ai.webp";
-import cms from "public/images/blog/cms.webp";
+import cms from "public/images/blog/cms/cms1InnerBannerMain.png";
 import devops from "public/images/blog/devops/devops1BlogHomeBanner.png";
 import graphicDesign from "public/images/blog/graphic_design.webp";
 import marketing1 from "public/images/blog/marketing/marketing1InnerBannerMain.png";
@@ -109,14 +109,13 @@ const HomeTwoBlog = () => {
             <div className="blog-two__slider-single topy-tilt">
               <div className="blog__single-thumb">
                 <Link href="blog-single">
-                  <Image src={cms} alt="Image" />
+                  <Image src={cms} alt="A robotic hand reaching towards a glowing light bulb with CMS written on it, symbolizing innovation in content management systems." />
                 </Link>
               </div>
               <div className="blog__single-content">
                 <h3>
-                  <Link href="/">
-                    Explore the Power of CMS Solutions with Devocra: Simplify,
-                    Manage, and Grow Your Digital Presence
+                  <Link href="/cms-category/how-to-choose-the-right-cms-development-services-for-your-business-in-2025">
+                  How to Choose the Right CMS Development Services for Your Business in 2025
                   </Link>
                 </h3>
                 <div className="blog__single-meta">
@@ -124,7 +123,7 @@ const HomeTwoBlog = () => {
                     CMS
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
-                  <p>MARCH 23, 2024</p>
+                  <p>February 27, 2025</p>
                 </div>
               </div>
             </div>

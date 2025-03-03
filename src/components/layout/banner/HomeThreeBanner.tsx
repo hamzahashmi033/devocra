@@ -113,7 +113,7 @@ const HomeThreeBanner = () => {
               <div className="overlay_bg"></div>
                 <div className="content">
                   <h2>
-                    Stunningly Unique Graphic Gesign Concepts </h2>
+                    Unique Graphic Gesign Concepts </h2>
                   <p>We create captivating ideas through illustration and design, blending art and technology to deliver purposeful, exciting concepts that challenge norms and offer unforgettable experiences.</p>
                   <div className="section__content-cta cta">
                     <div className="arrow-wrapper d-none d-md-block">

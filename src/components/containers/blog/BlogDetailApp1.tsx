@@ -3,7 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import poster from "public/images/blog/app/app1InnerBannerMain.jpg";
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+// import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+// import { dark } from '../../node_modules/react-syntax-highlighter/dist/esm/styles/prism';
+import  dark  from "react-syntax-highlighter/dist/esm/styles/hljs/atelier-plateau-dark";
+
 
 
 import ten from "public/images/news/ten.png";
@@ -45,7 +48,7 @@ const BlogDetailApp1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">How Does Converting an App to React Native Improve Performance?</h4>
+                                    <h4 className="h4 fw-bolder">How Does Converting an App to React Native Improve Performance?</h4>
                                     <div className="paragraph">
                                         <p>
                                             The guide demonstrates the process to convert mobile apps between Android and iOS to React Native format through runtime migration methods alongside advantages and technical obstacles. The development process for cross-platform apps using React Native becomes more simplified through Devocra to deliver both performance excellence and efficient development capabilities.
@@ -54,7 +57,7 @@ const BlogDetailApp1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">Step-by-Step Guide to Converting an Android & iOS App to React Native</h4>
+                                    <h4 className="h4 fw-bolder">Step-by-Step Guide to Converting an Android & iOS App to React Native</h4>
                                     <div className="paragraph">
                                         <p>
                                             Developer popularity of React Native arises from its capability to generate applications that work across platforms while using one code base. Numerous businesses together with developers choose to move their native Android and iOS apps to React Native to achieve both faster development times and unified app experiences. The following guide demonstrates how you can successfully perform native application conversion into React Native.
@@ -63,7 +66,7 @@ const BlogDetailApp1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">What is React Native?</h4>
+                                    <h4 className="h4 fw-bolder">What is React Native?</h4>
                                     <div className="paragraph">
                                         <p>
                                             The framework known as React Native supports developers to construct native-like applications through the combination of JavaScript with React programming. The native Android and iOS components engage directly with React Native without using traditional web-based frameworks which results in seamless and high-performance use. As a UI development framework React Native matches certain main aspects of React while working with native OS components instead of web-based elements.
@@ -147,7 +150,7 @@ const BlogDetailApp1 = () => {
                                                             <br />Create a new React Native project using the following command:
                                                             <div className='codesnip mt-4 mb-4'>
                                                                 <SyntaxHighlighter language="cpp"
-                                                                    style={atomOneDark}
+                                                                    style={dark}  
                                                                     customStyle={{ padding: "25px", fontSize: "17px" }}
                                                                     wrapLongLines={true}>
                                                                     {codeString2}
@@ -162,7 +165,7 @@ const BlogDetailApp1 = () => {
                                                             <br />If your existing app uses native libraries, configure React Native’s package manager (npm or yarn) to install the required dependencies. For example:
                                                             <div className='codesnip mt-4 mb-4'>
                                                                 <SyntaxHighlighter language="cpp"
-                                                                    style={atomOneDark}
+                                                                    style={dark}
                                                                     customStyle={{ padding: "25px", fontSize: "17px" }}
                                                                     wrapLongLines={true}>
                                                                     {codeString3}
@@ -171,7 +174,7 @@ const BlogDetailApp1 = () => {
                                                             Additionally, link native modules using:
                                                             <div className='codesnip mt-4 mb-4'>
                                                                 <SyntaxHighlighter language="cpp"
-                                                                    style={atomOneDark}
+                                                                   style={dark}
                                                                     customStyle={{ padding: "25px", fontSize: "17px" }}
                                                                     wrapLongLines={true}>
                                                                     {codeString4}
@@ -185,7 +188,7 @@ const BlogDetailApp1 = () => {
                                                             <br />Begin by recreating your app’s UI using React Native components. Use View, Text, Image, and TouchableOpacity to build interfaces.
                                                             <div className='codesnip mt-4 mb-4'>
                                                                 <SyntaxHighlighter language="cpp"
-                                                                    style={atomOneDark}
+                                                                    style={dark}
                                                                     customStyle={{ padding: "25px", fontSize: "17px" }}
                                                                     wrapLongLines={true}>
                                                                     {codeString5}
@@ -199,7 +202,7 @@ const BlogDetailApp1 = () => {
                                                             <br />React Native offers navigation libraries such as React Navigation and React Native Navigation. Install and set up navigation based on your app's needs:
                                                             <div className='codesnip mt-4 mb-4'>
                                                                 <SyntaxHighlighter language="cpp"
-                                                                    style={atomOneDark}
+                                                                    style={dark}
                                                                     customStyle={{ padding: "25px", fontSize: "17px" }}
                                                                     wrapLongLines={true}>
                                                                     {codeString6}
@@ -213,7 +216,7 @@ const BlogDetailApp1 = () => {
                                                             <br />If your app interacts with an API, use fetch or libraries like Axios to make HTTP requests:
                                                             <div className='codesnip mt-4 mb-4'>
                                                                 <SyntaxHighlighter language="cpp"
-                                                                    style={atomOneDark}
+                                                                    style={dark}
                                                                     customStyle={{ padding: "25px", fontSize: "17px" }}
                                                                     wrapLongLines={true}>
                                                                     {codeString7}
@@ -238,7 +241,7 @@ const BlogDetailApp1 = () => {
                                                             <br />Use emulators and real devices to test your app’s performance across platforms:
                                                             <div className='codesnip mt-4 mb-4'>
                                                                 <SyntaxHighlighter language="cpp"
-                                                                    style={atomOneDark}
+                                                                   style={dark}
                                                                     customStyle={{ padding: "25px", fontSize: "17px" }}
                                                                     wrapLongLines={true}>
                                                                     {codeString8}
@@ -253,7 +256,7 @@ const BlogDetailApp1 = () => {
                                                             <br />To enhance user experience, add a splash screen and configure the app icon using:
                                                             <div className='codesnip mt-4 mb-4'>
                                                                 <SyntaxHighlighter language="cpp"
-                                                                    style={atomOneDark}
+                                                                    style={dark}
                                                                     customStyle={{ padding: "25px", fontSize: "17px" }}
                                                                     wrapLongLines={true}>
                                                                     {codeString9}
@@ -296,7 +299,7 @@ const BlogDetailApp1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">Conclusion</h4>
+                                    <h4 className="h4 fw-bolder">Conclusion</h4>
                                     <div className="paragraph">
                                         <p>
                                         Migrating a native Android and iOS app to React Native requires structured planning and execution. With the ability to reuse code and speed up development, React Native is a powerful framework for cross-platform app development.
@@ -354,13 +357,13 @@ const BlogDetailApp1 = () => {
                                             <Link href="/devops-blogs">DevOps</Link>
                                         </li>
                                         <li>
-                                            <Link href="blog">CMS Development</Link>
+                                            <Link href="/cms-blogs">CMS Development</Link>
                                         </li>
                                         <li>
                                             <Link href="/marketing-blogs">Marketing</Link>
                                         </li>
                                         <li>
-                                            <Link href="blog">Graphic Designs</Link>
+                                            <Link href="/graphic-blogs">Graphic Designs</Link>
                                         </li>
                                         <li>
                                             <Link href="blog">Video Animation</Link>

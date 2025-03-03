@@ -3,10 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 
-import poster from "public/images/blog/app/app1InnerBannerMain.jpg";
+import poster from "public/images/blog/graphic/graphic1InnerBannerMain.jpg";
 
 
-const BlogMainApp = () => {
+const BlogMainGraphic = () => {
     const [videoActive, setVideoActive] = useState(false);
     return (
         <>
@@ -18,8 +18,8 @@ const BlogMainApp = () => {
                                 <div className="blog-main__single fade-top">
                                     <div className="thumb">
                                         <div className="thumb-link ">
-                                            <Link href="/app-category/how-does-converting-an-app-to-react-native-improve-performance">
-                                                <Image src={poster} alt="A programmer working at a desk with multiple screens, including a laptop, a monitor, and a smartphone, all displaying lines of code. The individual is holding the smartphone in one hand and typing on the laptop with the other. The workspace has a clean, modern setup with a keyboard and other office essentials in the background." title="A programmer working at a desk with multiple screens, including a laptop, a monitor, and a smartphone, all displaying lines of code. The individual is holding the smartphone in one hand and typing on the laptop with the other. The workspace has a clean, modern setup with a keyboard and other office essentials in the background." />
+                                            <Link href="/graphic-category/graphic-designing-by-devocra-transforming-visual-communication">
+                                                <Image src={poster} alt="Illustration of a human brain divided into two halves, representing logic and creativity. The left side is filled with structured black-and-white sketches of charts, graphs, formulas, and business concepts, symbolizing analytical thinking. The right side is colorful, with swirling patterns and paint splashes, representing artistic expression, imagination, and creativity." title="Illustration of a human brain divided into two halves, representing logic and creativity. The left side is filled with structured black-and-white sketches of charts, graphs, formulas, and business concepts, symbolizing analytical thinking. The right side is colorful, with swirling patterns and paint splashes, representing artistic expression, imagination, and creativity." />
                                             </Link>
                                         </div>
                                         <div className="meta">
@@ -29,21 +29,21 @@ const BlogMainApp = () => {
                                                     Balaj Hussain
                                                 </p>
                                                 <span></span>
-                                                <p>23/02/2025</p>
+                                                <p>03/03/2025</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="content ">
                                         <h4 className="h4">
                                             <Link href="blog-single">
-                                                How Does Converting an App to React Native Improve Performance?
+                                            Graphic Designing by Devocra Transforming Visual Communication
                                             </Link>
                                         </h4>
                                         <p>
-                                            This article focuses on the guide demonstrates the process to convert mobile apps between Android and iOS to React Native format through runtime migration methods alongside advantages and technical obstacles. The development process for cross-platform apps using React Native becomes more simplified through Devocra to deliver both performance excellence and efficient development capabilities.
+                                            This article is about how Graphic design is a powerful tool in today's digital age, helping companies to establish strong brand identities, create engaging content and effectively communicate with their audience. Devocra specializes in offering first -rate graphic design services, serving companies, entrepreneurs and individuals who require professional visual solutions. Whether it's your logo design services, motion, brand or digital design charts, the document guarantees high quality designs, innovative and impactful to your needs.
                                         </p>
                                         <div className="cta">
-                                            <Link href="/app-category/how-does-converting-an-app-to-react-native-improve-performance">
+                                            <Link href="/graphic-category/graphic-designing-by-devocra-transforming-visual-communication">
                                                 <i className="fa-sharp fa-regular fa-arrow-right"></i>
                                             </Link>
                                         </div>
@@ -133,4 +133,4 @@ const BlogMainApp = () => {
     );
 };
 
-export default BlogMainApp;
+export default BlogMainGraphic;

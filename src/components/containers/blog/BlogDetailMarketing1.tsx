@@ -34,7 +34,7 @@ const BlogDetailMarketing1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">Introduction</h4>
+                                    <h4 className="h4 fw-bolder">Introduction</h4>
                                     <div className="paragraph">
                                         <p>
                                             Traditional businesses struggle to determine which approach between SEO and Paid Search will work best for them in digital marketing. Businesses need to determine between these two options according to their specific objectives and financial constraints as well as implementation schedule. The article delivers a thorough analysis of PPC and SEO marketing which defines the distinction between organic and paid search visibility together with their respective impact on internet exposure.
@@ -44,7 +44,7 @@ const BlogDetailMarketing1 = () => {
 
                                 <div className="bd-content-info">
                                 <Image src={poster1} className="mb-5" alt="Exploring SEO – Understanding Search Engine Optimization" title="Exploring SEO – Understanding Search Engine Optimization"/>
-                                    <h4 className="h4">
+                                    <h4 className="h4 fw-bolder">
                                         What is SEO?
                                     </h4>
                                     <div className="paragraph">
@@ -52,31 +52,31 @@ const BlogDetailMarketing1 = () => {
                                     </div>
                                 </div>
                                 <div className="bd-content-info">
-                                    <h4 className="h4">Key Benefits of SEO Long-Term Results:</h4>
+                                    <h4 className="h4 fw-bolder">Key Benefits of SEO Long-Term Results:</h4>
                                     <div className="paragraph">
                                         <p>Organic rankings from SEO create enduring advantages because they sustain through long periods of time. A website that achieves a lead position in search results normally keeps its position without recurring payments over the extended period. Organic rankings provide long-lasting traffic capabilities that stretch from months up to years which makes them worthwhile investments toward creating enduring web presences. Organic SEO keeps delivering traffic consistently after the budget runs out while paid ads stop completely when funds are exhausted to provide website visitors.</p>
                                     </div>
                                 </div>
                                 <div className="bd-content-info">
-                                    <h4 className="h4">Organic Rankings Last Longer Compared to Paid Ads:</h4>
+                                    <h4 className="h4 fw-bolder">Organic Rankings Last Longer Compared to Paid Ads:</h4>
                                     <div className="paragraph">
                                         <p>Quick boosts resulting from paid ads disappear shortly after the end of the campaign. The search engine results automatically remove paid ads after either the advertising duration ends or when the budget runs out. Organic rankings need a substantial waiting period for achievement yet they maintain their performance throughout the duration of original Search Engine Optimization work. Websites that rank in prominent positions for competitive search terms will sustain these placements until they decide to stop funding their ads. This results in perpetual website traffic without periodic payments.</p>
                                     </div>
                                 </div>
                                 <div className="bd-content-info">
-                                    <h4 className="h4">Cost-Effective:</h4>
+                                    <h4 className="h4 fw-bolder">Cost-Effective:</h4>
                                     <div className="paragraph">
                                         <p>The main advantage of using SEO lies in how affordable it is to implement. The method of SEO proves advantageous since advertisers do not pay for every click or impression unlike with paid advertisements. The main SEO strategy centers on maximizing website content structure to receive free natural visitor traffic. The initial investment for SEO will cost time and expertise alongside resources but the resulting minimal ongoing expenses lead to higher long-term affordability.</p>
                                     </div>
                                 </div>
                                 <div className="bd-content-info">
-                                    <h4 className="h4">Builds Credibility:</h4>
+                                    <h4 className="h4 fw-bolder">Builds Credibility:</h4>
                                     <div className="paragraph">
                                         <p>Search engine users view websites appearing naturally in search results as more trustworthy due to their higher credibility. By nature users put more trust in search engine results that appear organically over sponsored advertisements since superior positions indicate relevant and reputable information. Online trust grows from providing excellent content alongside valuable backlinks as well as superior user experience until the entire virtual reputation becomes secure. The focus on SEO allows businesses to create better relationships with their audience base.</p>
                                     </div>
                                 </div>
                                 <div className="bd-content-info">
-                                    <h4 className="h4">Sustainable Growth:</h4>
+                                    <h4 className="h4 fw-bolder">Sustainable Growth:</h4>
                                     <div className="paragraph">
                                         <p>The implementation of SEO strategy results in establishing climbing agencies that sustain ongoing expansion. SEO traffic and visibility become self-sustained following the initial expense because no ongoing financial commitments are needed. The positioning of organic search results establishes long-term brand awareness and matches visitors with recurring views leading to maintaining business deals or conversion outcomes. Operators seeking efficient business expansion through SEO benefit from stable traffic flows which need no additional advertising expenses.</p>
                                     </div>
@@ -110,7 +110,7 @@ const BlogDetailMarketing1 = () => {
 
                                 <div className="bd-content-info">
                                 <Image src={poster2} className="mb-5" alt="Understanding Paid Search – Key Benefits and Features" title="Understanding Paid Search – Key Benefits and Features" />
-                                    <h4 className="h4">
+                                    <h4 className="h4 fw-bolder">
                                         What is Paid Search?
                                     </h4>
                                     <div className="paragraph">
@@ -170,7 +170,7 @@ const BlogDetailMarketing1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">
+                                    <h4 className="h4 fw-bolder">
                                         In conclusion:
                                     </h4>
                                     <div className="paragraph">
@@ -179,7 +179,7 @@ const BlogDetailMarketing1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">Organic SEO vs Paid SEO Key Differences</h4>
+                                    <h4 className="h4 fw-bolder">Organic SEO vs Paid SEO Key Differences</h4>
                                     <div className="container my-5">
                                         <table className="table table-bordered table-responsive">
                                             <thead className="table-dark">
@@ -226,7 +226,7 @@ const BlogDetailMarketing1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">
+                                    <h4 className="h4 fw-bolder">
                                         Natural Search vs. Paid Search: Which Strategy is Right for You?
                                     </h4>
                                     <div className="paragraph">
@@ -235,7 +235,7 @@ const BlogDetailMarketing1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">
+                                    <h4 className="h4 fw-bolder">
                                         When to Choose SEO (Search Engine Optimization)
                                     </h4>
                                     <div className="paragraph">
@@ -246,7 +246,7 @@ const BlogDetailMarketing1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">
+                                    <h4 className="h4 fw-bolder">
                                         When to Choose Paid Search (PPC Advertising)
                                     </h4>
                                     <div className="paragraph">
@@ -257,7 +257,7 @@ const BlogDetailMarketing1 = () => {
                                 </div>
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">SEO vs. Paid Search: Key Differences</h4>
+                                    <h4 className="h4 fw-bolder">SEO vs. Paid Search: Key Differences</h4>
                                     <div className="container my-5">
                                         <table className="table table-bordered table-responsive">
                                             <thead className="table-dark">
@@ -306,7 +306,7 @@ const BlogDetailMarketing1 = () => {
 
 
                                 <div className="bd-content-info">
-                                    <h4 className="h4">
+                                    <h4 className="h4 fw-bolder">
                                         Conclusion Finding the Right Balance Between SEO and PPC:
                                     </h4>
                                     <div className="paragraph">
@@ -369,13 +369,13 @@ const BlogDetailMarketing1 = () => {
                                             <Link href="/devops-blogs">DevOps</Link>
                                         </li>
                                         <li>
-                                            <Link href="blog">CMS Development</Link>
+                                            <Link href="/cms-blogs">CMS Development</Link>
                                         </li>
                                         <li>
                                             <Link href="/marketing-blogs">Marketing</Link>
                                         </li>
                                         <li>
-                                            <Link href="blog">Graphic Designs</Link>
+                                            <Link href="/graphic-blogs">Graphic Designs</Link>
                                         </li>
                                         <li>
                                             <Link href="blog">Video Animation</Link>

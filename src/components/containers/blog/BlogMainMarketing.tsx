@@ -90,13 +90,13 @@ const BlogMainMarketing = () => {
                                                 <Link href="/devops-blogs">DevOps</Link>
                                             </li>
                                             <li>
-                                                <Link href="blog">CMS Development</Link>
+                                                <Link href="/cms-blogs">CMS Development</Link>
                                             </li>
                                             <li>
                                                 <Link href="/marketing-blogs">Marketing</Link>
                                             </li>
                                             <li>
-                                                <Link href="blog">Graphic Designs</Link>
+                                                <Link href="/graphic-blogs">Graphic Designs</Link>
                                             </li>
                                             <li>
                                                 <Link href="blog">Video Animation</Link>

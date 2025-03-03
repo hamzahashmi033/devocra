@@ -7,6 +7,8 @@ import devops1 from "public/images/blog/devops/devops1InnerBannerMain.png";
 import website1 from "public/images/blog/website/website1InnerBannerMain.jpeg";
 import marketing1 from "public/images/blog/marketing/marketing1InnerBannerMain.png";
 import app1 from "public/images/blog/app/app1InnerBannerMain.jpg";
+import cms1 from "public/images/blog/cms/cms1InnerBannerMain.png";
+import graphic1 from "public/images/blog/graphic/graphic1InnerBannerMain.jpg";
 import nine from "public/images/news/nine.png";
 import ten from "public/images/news/ten.png";
 import eleven from "public/images/news/eleven.png";
@@ -188,6 +190,84 @@ const BlogMain = () => {
                   </div>
                 </div>
 
+                <div className="blog-main__single fade-top">
+                  <div className="thumb">
+                    <div className="thumb-link ">
+                      <Link href="blog-single">
+                        <Image
+                          src={cms1}
+                          alt="A robotic hand reaching towards a glowing light bulb with CMS written on it, symbolizing innovation in content management systems."
+                          title="A robotic hand reaching towards a glowing light bulb with CMS written on it, symbolizing innovation in content management systems."
+                        />
+                      </Link>
+                    </div>
+                    <div className="meta">
+                      <div className="meta__left">
+                        <p>
+                          <strong>Written by: </strong>
+                          Balaj Hussain
+                        </p>
+                        <span></span>
+                        <p>27/02/2025</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content ">
+                    <h4 className="h4">
+                      <Link href="/cms-category/how-to-choose-the-right-cms-development-services-for-your-business-in-2025">
+                      How to Choose the Right CMS Development Services for Your Business in 2025
+                      </Link>
+                    </h4>
+                    <p>
+                    This article is about CMS offers scalable, secure, and customizable content management solutions for businesses. Features include SEO optimization, performance speed, third-party integrations, security, and user-friendly design. It supports e-commerce, corporate sites, and enterprises with reliable support, cost-effective plans, and seamless content management.
+                    </p>
+                    <div className="cta">
+                      <Link href="/cms-category/how-to-choose-the-right-cms-development-services-for-your-business-in-2025">
+                        <i className="fa-sharp fa-regular fa-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="blog-main__single fade-top">
+                  <div className="thumb">
+                    <div className="thumb-link ">
+                      <Link href="blog-single">
+                        <Image
+                          src={graphic1}
+                          alt="Illustration of a human brain divided into two halves, representing logic and creativity. The left side is filled with structured black-and-white sketches of charts, graphs, formulas, and business concepts, symbolizing analytical thinking. The right side is colorful, with swirling patterns and paint splashes, representing artistic expression, imagination, and creativity."
+                          title="Illustration of a human brain divided into two halves, representing logic and creativity. The left side is filled with structured black-and-white sketches of charts, graphs, formulas, and business concepts, symbolizing analytical thinking. The right side is colorful, with swirling patterns and paint splashes, representing artistic expression, imagination, and creativity."
+                        />
+                      </Link>
+                    </div>
+                    <div className="meta">
+                      <div className="meta__left">
+                        <p>
+                          <strong>Written by: </strong>
+                          Balaj Hussain
+                        </p>
+                        <span></span>
+                        <p>03/03/2025</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content ">
+                    <h4 className="h4">
+                      <Link href="/graphic-category/graphic-designing-by-devocra-transforming-visual-communication">
+                      Graphic Designing by Devocra Transforming Visual Communication
+                      </Link>
+                    </h4>
+                    <p>
+                    This article is about how Graphic design is a powerful tool in today's digital age, helping companies to establish strong brand identities, create engaging content and effectively communicate with their audience. Devocra specializes in offering first -rate graphic design services, serving companies, entrepreneurs and individuals who require professional visual solutions. Whether it's your logo design services, motion, brand or digital design charts, the document guarantees high quality designs, innovative and impactful to your needs.
+                    </p>
+                    <div className="cta">
+                      <Link href="/graphic-category/graphic-designing-by-devocra-transforming-visual-communication">
+                        <i className="fa-sharp fa-regular fa-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="pagination-wrapper">
                   <ul className="pagination">
                     <li>
@@ -228,7 +308,7 @@ const BlogMain = () => {
                         <Link href="/devops-blogs">DevOps</Link>
                       </li>
                       <li>
-                        <Link href="blog">CMS Development</Link>
+                        <Link href="/cms-blogs">CMS Development</Link>
                       </li>
                       <li>
                         <Link href="/marketing-blogs">Marketing</Link>
