@@ -20,6 +20,7 @@
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-syntax-highlighter": "^15.6.1",
     "sass": "^1.66.1",
     "sharp": "^0.32.5",
     "sitemap": "^8.0.0",
@@ -29,6 +30,7 @@
     "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
-    "@types/chroma-js": "^2.4.0"
+    "@types/chroma-js": "^2.4.0",
+    "@types/react-syntax-highlighter": "^15.5.13"
   }
 }

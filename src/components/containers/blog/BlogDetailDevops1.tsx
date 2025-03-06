@@ -43,7 +43,7 @@ const BlogDetailDevops1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Introduction</h4>
+                  <h4 className="h4 fw-bolder">Introduction</h4>
                   <div className="paragraph">
                     <p>
                       Software delivery is an area that has changed considerably
@@ -62,7 +62,7 @@ const BlogDetailDevops1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Understanding Continuous Testing and DevOps
                   </h4>
                   <div className="paragraph">
@@ -86,11 +86,11 @@ const BlogDetailDevops1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Key Principles of Agile-DevOps Integration at devocra
                   </h4>
                   <div className="paragraph">
-                    <h4 className="h4 fs-5">
+                    <h4 className="h4 fw-bold fs-5">
                       Continuous Testing as a Core Pillar
                     </h4>
                     <p>
@@ -104,7 +104,7 @@ const BlogDetailDevops1 = () => {
                       pipeline as soon as code is built therefore, they deploy
                       faster with less defects.
                     </p>
-                    <h4 className="h4 fs-5">The Shift-Left Testing Trend</h4>
+                    <h4 className="h4 fw-bold fs-5">The Shift-Left Testing Trend</h4>
                     <p>
                       Devocra and the so-called shift-left testing imply that
                       testing should be performed as early as possible in the
@@ -159,7 +159,7 @@ const BlogDetailDevops1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     The Role of Automation in Continuous Testing{" "}
                   </h4>
                   <div className="paragraph">
@@ -175,7 +175,7 @@ const BlogDetailDevops1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Latest DevOps Tools and Trends in 2025{" "}
                   </h4>
                   <div className="paragraph">
@@ -234,7 +234,7 @@ const BlogDetailDevops1 = () => {
                 </div>
                 <div className="bd-content-info">
                   <Image src={poster1} className="mb-5" alt="" />
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Essential DevOps Tools for Streamlining Development and
                     Operations{" "}
                   </h4>
@@ -437,7 +437,7 @@ const BlogDetailDevops1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">DevOps Services Overview </h4>
+                  <h4 className="h4 fw-bolder">DevOps Services Overview </h4>
                   <div className="paragraph">
                     <p>
                       DevOps services cover the entire process of developing
@@ -836,7 +836,7 @@ const BlogDetailDevops1 = () => {
                 </div>
 
                 <div className="bd-content-info">
-                  <h4 className="h4">Conclusion </h4>
+                  <h4 className="h4 fw-bolder">Conclusion </h4>
                   <div className="paragraph">
                     <p>
                       While adopting Agile and DevOps processes, a company is on
@@ -896,19 +896,19 @@ const BlogDetailDevops1 = () => {
                       <Link href="/web-blogs">Web Development</Link>
                     </li>
                     <li>
-                      <Link href="blog">App Development</Link>
+                      <Link href="/app-blogs">App Development</Link>
                     </li>
                     <li>
                       <Link href="/devops-blogs">DevOps</Link>
                     </li>
                     <li>
-                      <Link href="blog">CMS Development</Link>
+                      <Link href="/cms-blogs">CMS Development</Link>
                     </li>
                     <li>
-                      <Link href="blog">Marketing</Link>
+                      <Link href="/marketing-blogs">Marketing</Link>
                     </li>
                     <li>
-                      <Link href="blog">Graphic Designs</Link>
+                      <Link href="/graphic-blogs">Graphic Designs</Link>
                     </li>
                     <li>
                       <Link href="blog">Video Animation</Link>

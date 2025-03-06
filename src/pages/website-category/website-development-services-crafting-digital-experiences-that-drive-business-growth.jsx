@@ -16,7 +16,7 @@ const Website1 = () => {
         "Discover expert Web development services including Python, Java, C++, and DevOps to enhance your digital projects and developmen"
       }
       cononical={
-        "https://devocra/devops-category/website-development-services-crafting-digital-experiences-that-drive-business-growth"
+        "https://devocra/website-category/website-development-services-crafting-digital-experiences-that-drive-business-growth"
       }
     >
       <BlogSingleBanner

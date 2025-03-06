@@ -53,7 +53,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Introduction</h4>
+                  <h4 className="h4 fw-bolder">Introduction</h4>
                   <div className="paragraph">
                     <p>
                       The custom Website Development section of Devocra includes
@@ -65,7 +65,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Transform Your Digital Presence with Expert Website
                     Development
                   </h4>
@@ -81,7 +81,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     How Do Website Development Services Contribute to Business
                     Success?
                   </h4>
@@ -113,7 +113,7 @@ const BlogDetailWebsite1 = () => {
                   />
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Revolutionizing Digital Solutions with Web 3.0 at Devocra{" "}
                   </h4>
                   <div className="paragraph">
@@ -127,7 +127,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Why Choose Devocra for Your Website Development Needs?{" "}
                   </h4>
                   <div className="paragraph">
@@ -143,9 +143,9 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Our Web Development Process </h4>
+                  <h4 className="h4 fw-bolder">Our Web Development Process </h4>
                   <div className="paragraph">
-                    <h4 className="h4 fs-5">
+                    <h4 className="h4 fw-bold fs-5">
                       A Strategic Approach to Web Development
                     </h4>
                     <p>
@@ -157,14 +157,14 @@ const BlogDetailWebsite1 = () => {
                       beauty and concrete system performance of the final
                       product.
                     </p>
-                    <h4 className="h4 fs-5">Planning & Consultation</h4>
+                    <h4 className="h4 fw-bold fs-5">Planning & Consultation</h4>
                     <p>
                       A website needs a well-defined strategy to gain success.
                       Our team spends its time extensively understanding your
                       business goals together with the market environment during
                       this initial stage.
                     </p>
-                    <h4 className="h4 fs-5">Understanding Your Goals:</h4>
+                    <h4 className="h4 fw-bold fs-5">Understanding Your Goals:</h4>
                     <p>
                       Our team performs complete meetings to understand how your
                       business operates along with the demographic you want to
@@ -174,7 +174,7 @@ const BlogDetailWebsite1 = () => {
                       sales growth or lead generation or establishing brand
                       visibility.
                     </p>
-                    <h4 className="h4 fs-5">Market & Competitor Analysis:</h4>
+                    <h4 className="h4 fw-bold fs-5">Market & Competitor Analysis:</h4>
                     <p>
                       The analysis of market trends combined with competitor
                       strategy evaluation leads us to the discovery of distinct
@@ -182,7 +182,7 @@ const BlogDetailWebsite1 = () => {
                       specific abilities we should integrate into your website
                       design to establish a competitive lead.
                     </p>
-                    <h4 className="h4 fs-5">Project Scope & Roadmap:</h4>
+                    <h4 className="h4 fw-bold fs-5">Project Scope & Roadmap:</h4>
                     <p>
                       The collected data helps us build a specific project scope
                       that details milestones as well as deliverables and
@@ -192,12 +192,12 @@ const BlogDetailWebsite1 = () => {
                       complete agreement among stakeholders about project
                       expectations since day one.
                     </p>
-                    <h4 className="h4 fs-5">Design & Prototyping</h4>
+                    <h4 className="h4 fw-bold fs-5">Design & Prototyping</h4>
                     <p>
                       Once the planning phase is complete, our creative team
                       steps in to translate your vision into a tangible design.
                     </p>
-                    <h4 className="h4 fs-5">Wireframing</h4>
+                    <h4 className="h4 fw-bold fs-5">Wireframing</h4>
                     <p>
                       Our designers begin with wireframes that serve as a
                       blueprint for the website layout. Wireframes help us
@@ -205,7 +205,7 @@ const BlogDetailWebsite1 = () => {
                       distraction of colors or images, focusing purely on
                       functionality and user flow.
                     </p>
-                    <h4 className="h4 fs-5">Visual Design</h4>
+                    <h4 className="h4 fw-bold fs-5">Visual Design</h4>
                     <p>
                       With the structure approved, we move on to creating
                       high-fidelity mockups. These designs incorporate your
@@ -214,7 +214,7 @@ const BlogDetailWebsite1 = () => {
                       intuitive user interface (UI) that enhances user
                       experience (UX).
                     </p>
-                    <h4 className="h4 fs-5">Interactive Prototyping</h4>
+                    <h4 className="h4 fw-bold fs-5">Interactive Prototyping</h4>
                     <p>
                       Our website development of interactive prototypes helps
                       you see the final product design in a realistic manner.
@@ -237,7 +237,7 @@ const BlogDetailWebsite1 = () => {
                   />
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Development & Coding</h4>
+                  <h4 className="h4 fw-bolder">Development & Coding</h4>
                   <div className="paragraph">
                     <p>
                       After design completion, our development team converts
@@ -249,7 +249,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Custom Coding</h4>
+                  <h4 className="h4 fw-bolder">Custom Coding</h4>
                   <div className="paragraph">
                     <p>
                       Developers from our team convert designed projects into
@@ -263,7 +263,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Security & Scalability</h4>
+                  <h4 className="h4 fw-bolder">Security & Scalability</h4>
                   <div className="paragraph">
                     <p>
                       Our company establishes stringent security measures to
@@ -277,7 +277,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Integration of Functionalities</h4>
+                  <h4 className="h4 fw-bolder">Integration of Functionalities</h4>
                   <div className="paragraph">
                     <p>
                       The developers at our company integrate multiple
@@ -300,7 +300,7 @@ const BlogDetailWebsite1 = () => {
                   />
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Quality Assurance & Testing</h4>
+                  <h4 className="h4 fw-bolder">Quality Assurance & Testing</h4>
                   <div className="paragraph">
                     <p>
                       Internet users must examine websites with full precision
@@ -310,7 +310,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Cross-Browser Testing</h4>
+                  <h4 className="h4 fw-bolder">Cross-Browser Testing</h4>
                   <div className="paragraph">
                     <p>
                       Once tested, we verify website performance in Chrome
@@ -323,7 +323,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Responsive Testing</h4>
+                  <h4 className="h4 fw-bolder">Responsive Testing</h4>
                   <div className="paragraph">
                     <p>
                       Total website responsiveness must be a top priority now
@@ -335,7 +335,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Performance Testing</h4>
+                  <h4 className="h4 fw-bolder">Performance Testing</h4>
                   <div className="paragraph">
                     <p>
                       Website speed together with performance standards both
@@ -348,7 +348,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Security Testing</h4>
+                  <h4 className="h4 fw-bolder">Security Testing</h4>
                   <div className="paragraph">
                     <p>
                       Security audits form an integral component of our quality
@@ -360,7 +360,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">User Acceptance Testing (UAT)</h4>
+                  <h4 className="h4 fw-bolder">User Acceptance Testing (UAT)</h4>
                   <div className="paragraph">
                     <p>
                       The last step of our process involves testing alongside
@@ -432,7 +432,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">Final Thoughts</h4>
+                  <h4 className="h4 fw-bolder">Final Thoughts</h4>
                   <div className="paragraph">
                     <p>
                       Our strategic approach to website development is built on
@@ -457,11 +457,11 @@ const BlogDetailWebsite1 = () => {
                     </p>
                   </div>
                   <div className="bd-content-info">
-                    <h4 className="h4">
+                    <h4 className="h4 fw-bolder">
                       Why Our Web Development Services Stand Out
                     </h4>
                     <div className="paragraph">
-                      <h4 className="h4 fs-5">Expert Web Developers</h4>
+                      <h4 className="h4 fw-bold fs-5">Expert Web Developers</h4>
                       <p>
                         Our team of developers brings expertise in a variety of
                         modern web development technologies, such as HTML5,
@@ -471,7 +471,7 @@ const BlogDetailWebsite1 = () => {
                         developers specialize in creating websites that are both
                         functional and visually appealing.
                       </p>
-                      <h4 className="h4 fs-5">Custom Solutions</h4>
+                      <h4 className="h4 fw-bold fs-5">Custom Solutions</h4>
                       <p>
                         We understand that every business is unique, which is
                         why we provide custom website development services. By
@@ -481,7 +481,7 @@ const BlogDetailWebsite1 = () => {
                         simple yet effective company website, we deliver
                         personalized solutions.
                       </p>
-                      <h4 className="h4 fs-5">SEO Optimization</h4>
+                      <h4 className="h4 fw-bold fs-5">SEO Optimization</h4>
                       <p>
                         Our websites are built with SEO best practices
                         integrated into the development process. We prioritize
@@ -599,7 +599,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     SEO-Optimized Web Design Boost Your Business with a High-
                     Ranking Website
                   </h4>
@@ -614,7 +614,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Web Development for Businesses of All Sizes
                   </h4>
                   <div className="paragraph">
@@ -628,11 +628,11 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Benefits of Choosing Devocra for Website Development{" "}
                   </h4>
                   <div className="paragraph">
-                    <h4 className="h4 fs-5">Tailored Solutions</h4>
+                    <h4 className="h4 fw-bold fs-5">Tailored Solutions</h4>
                     <p>
                       Devocra takes pride in creating websites that align
                       perfectly with each client’s unique business needs. Unlike
@@ -642,7 +642,7 @@ const BlogDetailWebsite1 = () => {
                       This approach guarantees a website that enhances user
                       experience while supporting your business objectives.
                     </p>
-                    <h4 className="h4 fs-5">Scalable Platforms</h4>
+                    <h4 className="h4 fw-bold fs-5">Scalable Platforms</h4>
                     <p>
                       As businesses evolve, so do their digital requirements.
                       Devocra builds websites designed for scalability, ensuring
@@ -651,7 +651,7 @@ const BlogDetailWebsite1 = () => {
                       allows businesses to grow without worrying about technical
                       limitations.
                     </p>
-                    <h4 className="h4 fs-5">24/7 Support</h4>
+                    <h4 className="h4 fw-bold fs-5">24/7 Support</h4>
                     <p>
                       Business requirements change constantly within digital
                       environments because the digital field continues to
@@ -666,7 +666,7 @@ const BlogDetailWebsite1 = () => {
                   </div>
                 </div>
                 <div className="bd-content-info">
-                  <h4 className="h4">
+                  <h4 className="h4 fw-bolder">
                     Conclusion Begin Your Website Development Journey with
                     Devocra
                   </h4>
@@ -684,7 +684,7 @@ const BlogDetailWebsite1 = () => {
                 </div>
               </div>
 
-              <div className="bd-tags">
+              {/* <div className="bd-tags">
                 <div className="tags-left"></div>
                 <div className="tags-right">
                   <p>Share:</p>
@@ -711,7 +711,31 @@ const BlogDetailWebsite1 = () => {
                     </li>
                   </ul>
                 </div>
+              </div> */}
+              <div className="widget">
+                <div className="widget__head">
+                  <h5 className="h5">Recent Posts</h5>
+                </div>
+                <div className="widget__latest">
+                  <div className="latest-single ">
+                    <div className="latest-thumb">
+                      <Link href="/devops-category/unlock-the-future-of-software-quality-with-devOps-and-devSecOps">
+                        <Image src={Recent1} alt="Image" />
+                      </Link>
+                    </div>
+                    <div className="latest-content">
+                      <p>08/02/2025</p>
+                      <p>
+                        <Link href="/devops-category/unlock-the-future-of-software-quality-with-devOps-and-devSecOps">
+                          Top 23 Essential Tools for Continuous Testing & DevOps
+                          Boost Your Software Quality and Efficiency
+                        </Link>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
+              
             </div>
           </div>
           <div className="col-12 col-xl-4">
@@ -726,19 +750,19 @@ const BlogDetailWebsite1 = () => {
                       <Link href="/web-blogs">Web Development</Link>
                     </li>
                     <li>
-                      <Link href="blog">App Development</Link>
+                      <Link href="/app-blogs">App Development</Link>
                     </li>
                     <li>
                       <Link href="/devops-blogs">DevOps</Link>
                     </li>
                     <li>
-                      <Link href="blog">CMS Development</Link>
+                      <Link href="/cms-blogs">CMS Development</Link>
                     </li>
                     <li>
-                      <Link href="blog">Marketing</Link>
+                      <Link href="/marketing-blogs">Marketing</Link>
                     </li>
                     <li>
-                      <Link href="blog">Graphic Designs</Link>
+                      <Link href="/graphic-blogs">Graphic Designs</Link>
                     </li>
                     <li>
                       <Link href="blog">Video Animation</Link>
@@ -767,10 +791,9 @@ const BlogDetailWebsite1 = () => {
                       </p>
                     </div>
                   </div>
-                  
-                  
                 </div>
-              </div>
+               </div>
+
             </div>
           </div>
         </div>
