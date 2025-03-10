@@ -5,7 +5,7 @@ import poster from "public/images/blog/app/app1InnerBannerMain.jpg";
 import SyntaxHighlighter from 'react-syntax-highlighter';
 // import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 // import { dark } from '../../node_modules/react-syntax-highlighter/dist/esm/styles/prism';
-import  dark  from "react-syntax-highlighter/dist/esm/styles/hljs/atelier-plateau-dark";
+import  dark  from "react-syntax-highlighter/dist/cjs/styles/hljs/atelier-plateau-dark";
 
 
 

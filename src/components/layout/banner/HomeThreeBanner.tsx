@@ -20,6 +20,10 @@ const HomeThreeBanner = () => {
   return (
     <>
       <section className="banner-three">
+        <video autoPlay loop muted playsInline className="background-video">
+          <source src="/images/video/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="banner-three__slider-w banner-three-alt-w">
           <Swiper
             slidesPerView={1}
@@ -37,45 +41,26 @@ const HomeThreeBanner = () => {
             className="banner-three__slider banner-three-alt"
           >
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/development.webp')" }}>
-              <div className="overlay_bg"></div>
+              <div
+                className="single_slide"
+                // style={{
+                //   backgroundImage: "url('/images/banner/development.webp')",
+                // }}
+              >
+                <div className="overlay_bg"></div>
                 <div className="content">
-                  <h1>
-                    Exceptional Web and App Development
-                    Solutions
-                  </h1>
-                  <p>We deliver top-notch web and app development solutions with professional designs, transforming businesses through innovative strategies, cutting-edge technology, and expert management tailored to diverse business needs.</p>
+                  <h1>Exceptional Web and App Development Solutions</h1>
+                  <p>
+                    We deliver top-notch web and app development solutions with
+                    professional designs, transforming businesses through
+                    innovative strategies, cutting-edge technology, and expert
+                    management tailored to diverse business needs.
+                  </p>
                   <div className="section__content-cta cta">
                     <div className="arrow-wrapper d-none d-md-block">
                       <span className="arrow"></span>
                     </div>
-                    <Link
-                      href="/contact-us"
-                      className="btn btn--secondary"
-                    >
-                      book now &nbsp;
-                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide >
-            <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/cms.webp')" }}>
-              <div className="overlay_bg"></div>
-                <div className="content">
-                  <h2>
-                    Outstanding CMS Development Solutions
-                  </h2>
-                  <p>Discover exceptional open-source CMS platforms designed for efficiency and excellence, offering optimal functionality, scalability, and reliability to empower your business with seamless growth and top-tier performance.</p>
-                  <div className="section__content-cta cta">
-                    <div className="arrow-wrapper d-none d-md-block">
-                      <span className="arrow"></span>
-                    </div>
-                    <Link
-                     href="/contact-us"
-                      className="btn btn--secondary"
-                    >
+                    <Link href="/contact-us" className="btn btn--secondary">
                       book now &nbsp;
                       <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                     </Link>
@@ -84,23 +69,24 @@ const HomeThreeBanner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/marketing.webp')" }}>
-              <div className="overlay_bg"></div>
+              <div
+                className="single_slide"
+                // style={{ backgroundImage: "url('/images/banner/cms.webp')" }}
+              >
+                <div className="overlay_bg"></div>
                 <div className="content">
-                  <h2>
-                    Effective marketing solutions
-                  </h2>
-                  <p>Advanced approaches create value, sustain interest, and guarantee positive outcomes.
-                    Innovative methodologies, identifying unique campaigns, perfecting the message strengthens
-                    your brand. Find out innovative strategies that are aimed to engage and motivate.</p>
+                  <h2>Outstanding CMS Development Solutions</h2>
+                  <p>
+                    Discover exceptional open-source CMS platforms designed for
+                    efficiency and excellence, offering optimal functionality,
+                    scalability, and reliability to empower your business with
+                    seamless growth and top-tier performance.
+                  </p>
                   <div className="section__content-cta cta">
                     <div className="arrow-wrapper d-none d-md-block">
                       <span className="arrow"></span>
                     </div>
-                    <Link
-                       href="/contact-us"
-                      className="btn btn--secondary"
-                    >
+                    <Link href="/contact-us" className="btn btn--secondary">
                       book now &nbsp;
                       <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                     </Link>
@@ -109,20 +95,27 @@ const HomeThreeBanner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/graphicDesign.webp')" }}>
-              <div className="overlay_bg"></div>
+              <div
+                className="single_slide"
+                // style={{
+                //   backgroundColor:"transparent"
+                // }}
+              >
+                <div className="overlay_bg"></div>
                 <div className="content">
-                  <h2>
-                    Unique Graphic Gesign Concepts </h2>
-                  <p>We create captivating ideas through illustration and design, blending art and technology to deliver purposeful, exciting concepts that challenge norms and offer unforgettable experiences.</p>
+                  <h2>Effective marketing solutions</h2>
+                  <p>
+                    Advanced approaches create value, sustain interest, and
+                    guarantee positive outcomes. Innovative methodologies,
+                    identifying unique campaigns, perfecting the message
+                    strengthens your brand. Find out innovative strategies that
+                    are aimed to engage and motivate.
+                  </p>
                   <div className="section__content-cta cta">
                     <div className="arrow-wrapper d-none d-md-block">
                       <span className="arrow"></span>
                     </div>
-                    <Link
-                     href="/contact-us"
-                      className="btn btn--secondary"
-                    >
+                    <Link href="/contact-us" className="btn btn--secondary">
                       book now &nbsp;
                       <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                     </Link>
@@ -131,24 +124,26 @@ const HomeThreeBanner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/devops.webp')" }}>
-              <div className="overlay_bg"></div>
+              <div
+                className="single_slide"
+                // style={{
+                //   backgroundImage: "url('/images/banner/graphicDesign.webp')",
+                // }}
+              >
+                <div className="overlay_bg"></div>
                 <div className="content">
-                  <h2>
-                    Revolutionary DevOps engineering strategies
-                  </h2>
-                  <p>Improving operational efficiency through tools and techniques in the transforming environment.
-                    Creating solid foundations that guarantee secure pipelines of delivery. Valuing up of processes
-                    to decrease periods of inactivity and increase capacity.</p>
+                  <h2>Unique Graphic Gesign Concepts </h2>
+                  <p>
+                    We create captivating ideas through illustration and design,
+                    blending art and technology to deliver purposeful, exciting
+                    concepts that challenge norms and offer unforgettable
+                    experiences.
+                  </p>
                   <div className="section__content-cta cta">
                     <div className="arrow-wrapper d-none d-md-block">
                       <span className="arrow"></span>
                     </div>
-                    <Link
-                       href="/contact-us"
-                      className="btn btn--secondary"
-                      
-                    >
+                    <Link href="/contact-us" className="btn btn--secondary">
                       book now &nbsp;
                       <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                     </Link>
@@ -157,19 +152,25 @@ const HomeThreeBanner = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="single_slide" style={{ backgroundImage: "url('/images/banner/ai.webp')" }}>
+              <div
+                className="single_slide"
+                // style={{ backgroundImage: "url('/images/banner/devops.webp')" }}
+              >
+                <div className="overlay_bg"></div>
                 <div className="content">
-                  <h2>
-                    Groundbreaking Artificial Intelligence Service </h2>
-                  <p>We inspire the world with cutting-edge AI solutions, transforming ideas into business innovations, enhancing productivity through seamless integration, and revolutionizing industries with large-scale innovation. </p>
+                  <h2>Revolutionary DevOps engineering strategies</h2>
+                  <p>
+                    Improving operational efficiency through tools and
+                    techniques in the transforming environment. Creating solid
+                    foundations that guarantee secure pipelines of delivery.
+                    Valuing up of processes to decrease periods of inactivity
+                    and increase capacity.
+                  </p>
                   <div className="section__content-cta cta">
                     <div className="arrow-wrapper d-none d-md-block">
                       <span className="arrow"></span>
                     </div>
-                    <Link
-                       href="/contact-us"
-                      className="btn btn--secondary"
-                    >
+                    <Link href="/contact-us" className="btn btn--secondary">
                       book now &nbsp;
                       <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                     </Link>
@@ -177,8 +178,33 @@ const HomeThreeBanner = () => {
                 </div>
               </div>
             </SwiperSlide>
-          </Swiper >
-        </div >
+            <SwiperSlide>
+              <div
+                className="single_slide"
+                // style={{ backgroundImage: "url('/images/banner/ai.webp')" }}
+              >
+                <div className="content">
+                  <h2>Groundbreaking Artificial Intelligence Service </h2>
+                  <p>
+                    We inspire the world with cutting-edge AI solutions,
+                    transforming ideas into business innovations, enhancing
+                    productivity through seamless integration, and
+                    revolutionizing industries with large-scale innovation.{" "}
+                  </p>
+                  <div className="section__content-cta cta">
+                    <div className="arrow-wrapper d-none d-md-block">
+                      <span className="arrow"></span>
+                    </div>
+                    <Link href="/contact-us" className="btn btn--secondary">
+                      book now &nbsp;
+                      <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
         {/* <div className="social justify-content-center justify-content-lg-end">
           <Link href="https://www.facebook.com/" target="_blank">
             <i className="fa-brands fa-facebook-f"></i>
@@ -193,7 +219,6 @@ const HomeThreeBanner = () => {
             <i className="fa-brands fa-instagram"></i>
           </Link>
         </div> */}
-
 
         <div className="banner-three__slider-progress-wrapper">
           <div className="container">
@@ -261,9 +286,7 @@ const HomeThreeBanner = () => {
             </div>
           </div>
         </div>
-
-      </section >
-
+      </section>
     </>
   );
 };
